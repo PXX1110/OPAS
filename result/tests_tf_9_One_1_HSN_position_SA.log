@@ -1,0 +1,192 @@
+2022-05-14 22:04:58,850 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-14 22:05:07,271 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2048: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-14 22:30:35,271 - root - INFO - Finished test
+2022-05-14 22:30:35,271 - root - INFO - Test loss 0.5951 (%)
+2022-05-14 22:30:35,271 - root - INFO - Test accuracy 99.8974 (%)
+2022-05-14 22:30:35,271 - root - INFO - OA 99.8974 (%)
+2022-05-14 22:30:35,271 - root - INFO - Each_Acc: 
+2022-05-14 22:30:35,271 - root - INFO - [100.         100.         100.          99.20318725 100.
+  99.77547011  99.96895374  99.99014196 100.         100.
+ 100.          99.88465975 100.          98.13084112  99.84711818
+ 100.        ]
+2022-05-14 22:30:35,271 - root - INFO - AA 99.8000 (%)
+2022-05-14 22:30:35,271 - root - INFO - Kappa 99.8857 (%)
+2022-05-14 22:30:35,271 - root - INFO - classification result: 
+2022-05-14 22:30:35,271 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     1.0000    1.0000    1.0000      1808
+                 Corn-notill     1.0000    1.0000    1.0000      3354
+                Corn-mintill     1.0000    1.0000    1.0000      1779
+                        Corn     1.0000    0.9920    0.9960      1255
+               Grass-pasture     0.9926    1.0000    0.9963      2410
+                 Grass-trees     0.9997    0.9978    0.9987      3563
+         Grass-pasture-mowed     1.0000    0.9997    0.9998      3221
+               Hay-windrowed     0.9990    0.9999    0.9995     10144
+                        Oats     1.0000    1.0000    1.0000      5583
+              Soybean-notill     0.9993    1.0000    0.9997      2950
+             Soybean-mintill     0.9979    1.0000    0.9990       961
+               Soybean-clean     1.0000    0.9988    0.9994      1734
+                       Wheat     0.9810    1.0000    0.9904       825
+                       Woods     1.0000    0.9813    0.9906       963
+Buildings-Grass-Trees-Drives     0.9998    0.9985    0.9992      6541
+          Stone-Steel-Towers     1.0000    1.0000    1.0000      1626
+
+                    accuracy                         0.9990     48717
+                   macro avg     0.9981    0.9980    0.9980     48717
+                weighted avg     0.9990    0.9990    0.9990     48717
+
+2022-05-14 22:31:59,038 - root - INFO - Create PixelAttack attack
+2022-05-14 22:31:59,038 - root - INFO - Craft attack on training examples
+2022-05-15 05:30:10,939 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 75.44%
+2022-05-15 05:30:10,942 - root - INFO - advtraintime-25091.9040 (sec)
+2022-05-15 05:30:10,942 - root - INFO - Craft attack test examples
+2022-05-17 22:18:32,493 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 74.71%
+2022-05-17 22:18:32,523 - root - INFO - advtesttime-233301.5803 (sec)
+2022-05-17 22:20:14,174 - root - INFO - Classifier before adversarial training
+2022-05-17 22:20:14,174 - root - INFO - Start adversarial examples test
+2022-05-17 22:20:14,174 - root - INFO - Test loss on adversarial examples 714.6866 (%)
+2022-05-17 22:20:14,174 - root - INFO - Test accuracy on adversarial examples 25.3197 (%)
+2022-05-17 22:20:14,174 - root - INFO - OA 25.3197 (%)
+2022-05-17 22:20:14,174 - root - INFO - Each_Acc: 
+2022-05-17 22:20:14,174 - root - INFO - [8.39601770e+01 7.88312463e+01 0.00000000e+00 7.17131474e-01
+ 4.14937759e-02 7.80802694e+01 7.68394908e+01 0.00000000e+00
+ 5.89288913e+00 5.89152542e+01 9.36524454e+00 0.00000000e+00
+ 0.00000000e+00 0.00000000e+00 4.58645467e-02 4.58794588e+01]
+2022-05-17 22:20:14,175 - root - INFO - AA 27.4105 (%)
+2022-05-17 22:20:14,175 - root - INFO - Kappa 17.5779 (%)
+2022-05-17 22:20:14,175 - root - INFO - classification result: 
+2022-05-17 22:20:14,175 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.9487    0.8396    0.8908      1808
+                 Corn-notill     0.5773    0.7883    0.6665      3354
+                Corn-mintill     0.0000    0.0000    0.0000      1779
+                        Corn     0.0158    0.0072    0.0099      1255
+               Grass-pasture     0.0007    0.0004    0.0005      2410
+                 Grass-trees     0.6233    0.7808    0.6932      3563
+         Grass-pasture-mowed     0.7948    0.7684    0.7814      3221
+               Hay-windrowed     0.0000    0.0000    0.0000     10144
+                        Oats     0.0172    0.0589    0.0267      5583
+              Soybean-notill     0.2999    0.5892    0.3974      2950
+             Soybean-mintill     0.5921    0.0937    0.1617       961
+               Soybean-clean     0.0000    0.0000    0.0000      1734
+                       Wheat     0.0000    0.0000    0.0000       825
+                       Woods     0.0000    0.0000    0.0000       963
+Buildings-Grass-Trees-Drives     0.0021    0.0005    0.0008      6541
+          Stone-Steel-Towers     0.7723    0.4588    0.5756      1626
+
+                    accuracy                         0.2532     48717
+                   macro avg     0.2903    0.2741    0.2628     48717
+                weighted avg     0.2314    0.2532    0.2312     48717
+
+2022-05-17 22:51:38,670 - root - INFO - Classifier after adversarial training
+2022-05-17 22:51:38,670 - root - INFO - Adv test loss 0.6042 (%)
+2022-05-17 22:51:38,670 - root - INFO - Adv test accuracy 99.8933 (%)
+2022-05-17 22:51:38,670 - root - INFO - OA 99.8933 (%)
+2022-05-17 22:51:38,670 - root - INFO - Each_Acc: 
+2022-05-17 22:51:38,670 - root - INFO - [100.         100.         100.          99.92031873  99.8340249
+  99.57900646 100.          99.96056782 100.         100.
+ 100.          99.1349481   99.63636364  99.58463136  99.92355909
+  99.93849938]
+2022-05-17 22:51:38,670 - root - INFO - AA 99.8445 (%)
+2022-05-17 22:51:38,670 - root - INFO - Kappa 99.8812 (%)
+2022-05-17 22:51:38,670 - root - INFO - Adv classification result: 
+2022-05-17 22:51:38,670 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     1.0000    1.0000    1.0000      1808
+                 Corn-notill     1.0000    1.0000    1.0000      3354
+                Corn-mintill     1.0000    1.0000    1.0000      1779
+                        Corn     0.9968    0.9992    0.9980      1255
+               Grass-pasture     0.9922    0.9983    0.9952      2410
+                 Grass-trees     1.0000    0.9958    0.9979      3563
+         Grass-pasture-mowed     1.0000    1.0000    1.0000      3221
+               Hay-windrowed     0.9996    0.9996    0.9996     10144
+                        Oats     1.0000    1.0000    1.0000      5583
+              Soybean-notill     0.9990    1.0000    0.9995      2950
+             Soybean-mintill     0.9887    1.0000    0.9943       961
+               Soybean-clean     0.9983    0.9913    0.9948      1734
+                       Wheat     0.9928    0.9964    0.9946       825
+                       Woods     1.0000    0.9958    0.9979       963
+Buildings-Grass-Trees-Drives     0.9997    0.9992    0.9995      6541
+          Stone-Steel-Towers     1.0000    0.9994    0.9997      1626
+
+                    accuracy                         0.9989     48717
+                   macro avg     0.9979    0.9984    0.9982     48717
+                weighted avg     0.9989    0.9989    0.9989     48717
+
+2022-05-17 22:53:04,218 - root - INFO - Finish!
+2022-05-18 21:01:26,238 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-18 21:02:24,352 - root - INFO - Finished test
+2022-05-18 21:02:24,352 - root - INFO - Test loss 0.3232 (%)
+2022-05-18 21:02:24,352 - root - INFO - Test accuracy 99.9179 (%)
+2022-05-18 21:02:24,352 - root - INFO - OA 99.9179 (%)
+2022-05-18 21:02:24,352 - root - INFO - Each_Acc: 
+2022-05-18 21:02:24,352 - root - INFO - [100.         100.         100.          99.44223108  99.66804979
+  99.88773505 100.          99.94085174 100.          99.93220339
+ 100.         100.         100.          99.4807892   99.87769454
+ 100.        ]
+2022-05-18 21:02:24,352 - root - INFO - AA 99.8893 (%)
+2022-05-18 21:02:24,352 - root - INFO - Kappa 99.9086 (%)
+2022-05-18 21:02:24,352 - root - INFO - classification result: 
+2022-05-18 21:02:24,352 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1808
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      3354
+                   Fallow     1.0000    1.0000    1.0000      1779
+        Fallow_rough_plow     0.9936    0.9944    0.9940      1255
+            Fallow_smooth     0.9959    0.9967    0.9963      2410
+                  Stubble     1.0000    0.9989    0.9994      3563
+                   Celery     0.9997    1.0000    0.9998      3221
+         Grapes_untrained     0.9992    0.9994    0.9993     10144
+     Soil_vinyard_develop     1.0000    1.0000    1.0000      5583
+Corn_senesced_green_weeds     1.0000    0.9993    0.9997      2950
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       961
+      Lettuce_romaine_5wk     1.0000    1.0000    1.0000      1734
+      Lettuce_romaine_6wk     0.9940    1.0000    0.9970       825
+      Lettuce_romaine_7wk     0.9979    0.9948    0.9964       963
+        Vinyard_untrained     0.9991    0.9988    0.9989      6541
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1626
+
+                 accuracy                         0.9992     48717
+                macro avg     0.9987    0.9989    0.9988     48717
+             weighted avg     0.9992    0.9992    0.9992     48717
+
+2022-05-18 21:02:59,056 - root - INFO - Classifier after adversarial training
+2022-05-18 21:02:59,057 - root - INFO - Adv test loss 0.1746 (%)
+2022-05-18 21:02:59,057 - root - INFO - Adv test accuracy 99.9548 (%)
+2022-05-18 21:02:59,057 - root - INFO - OA 99.9548 (%)
+2022-05-18 21:02:59,057 - root - INFO - Each_Acc: 
+2022-05-18 21:02:59,057 - root - INFO - [100.         100.         100.          99.84063745 100.
+  99.83160258 100.         100.         100.         100.
+ 100.          99.82698962  99.87878788  99.37694704  99.93884727
+ 100.        ]
+2022-05-18 21:02:59,057 - root - INFO - AA 99.9184 (%)
+2022-05-18 21:02:59,057 - root - INFO - Kappa 99.9497 (%)
+2022-05-18 21:02:59,057 - root - INFO - Adv classification result: 
+2022-05-18 21:02:59,057 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1808
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      3354
+                   Fallow     1.0000    1.0000    1.0000      1779
+        Fallow_rough_plow     1.0000    0.9984    0.9992      1255
+            Fallow_smooth     0.9967    1.0000    0.9983      2410
+                  Stubble     1.0000    0.9983    0.9992      3563
+                   Celery     1.0000    1.0000    1.0000      3221
+         Grapes_untrained     0.9996    1.0000    0.9998     10144
+     Soil_vinyard_develop     1.0000    1.0000    1.0000      5583
+Corn_senesced_green_weeds     1.0000    1.0000    1.0000      2950
+      Lettuce_romaine_4wk     0.9990    1.0000    0.9995       961
+      Lettuce_romaine_5wk     0.9994    0.9983    0.9988      1734
+      Lettuce_romaine_6wk     0.9904    0.9988    0.9946       825
+      Lettuce_romaine_7wk     1.0000    0.9938    0.9969       963
+        Vinyard_untrained     1.0000    0.9994    0.9997      6541
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1626
+
+                 accuracy                         0.9995     48717
+                macro avg     0.9991    0.9992    0.9991     48717
+             weighted avg     0.9996    0.9995    0.9995     48717
+
+2022-05-18 21:02:59,994 - root - INFO - Finish!

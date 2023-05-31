@@ -1,0 +1,74 @@
+2022-05-19 14:58:46,831 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-19 14:58:55,001 - root - INFO - Start transform test before adv from SA to IP
+2022-05-19 14:58:55,001 - root - INFO - Test loss on transform examples 7.1645 (%)
+2022-05-19 14:58:55,001 - root - INFO - Test accuracy on transform examples 98.0813 (%)
+2022-05-19 14:58:55,001 - root - INFO - OA 98.0813 (%)
+2022-05-19 14:58:55,002 - root - INFO - Each_Acc: 
+2022-05-19 14:58:55,002 - root - INFO - [ 97.56097561  98.28793774  98.25970549  95.30516432  97.70114943
+  98.93455099  64.         100.          94.44444444  96.91428571
+  98.68778281  95.31835206 100.          98.94644425  97.98270893
+  95.23809524]
+2022-05-19 14:58:55,002 - root - INFO - AA 95.4738 (%)
+2022-05-19 14:58:55,002 - root - INFO - Kappa 97.8125 (%)
+2022-05-19 14:58:55,002 - root - INFO - classification result: 
+2022-05-19 14:58:55,002 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.9524    0.9756    0.9639        41
+                 Corn-notill     0.9791    0.9829    0.9810      1285
+                Corn-mintill     0.9495    0.9826    0.9658       747
+                        Corn     0.9531    0.9531    0.9531       213
+               Grass-pasture     0.9793    0.9770    0.9781       435
+                 Grass-trees     0.9804    0.9893    0.9848       657
+         Grass-pasture-mowed     1.0000    0.6400    0.7805        25
+               Hay-windrowed     0.9931    1.0000    0.9965       430
+                        Oats     0.9444    0.9444    0.9444        18
+              Soybean-notill     0.9872    0.9691    0.9781       875
+             Soybean-mintill     0.9873    0.9869    0.9871      2210
+               Soybean-clean     0.9864    0.9532    0.9695       534
+                       Wheat     0.9893    1.0000    0.9946       185
+                       Woods     0.9938    0.9895    0.9916      1139
+Buildings-Grass-Trees-Drives     0.9687    0.9798    0.9742       347
+          Stone-Steel-Towers     0.9195    0.9524    0.9357        84
+
+                    accuracy                         0.9808      9225
+                   macro avg     0.9727    0.9547    0.9612      9225
+                weighted avg     0.9810    0.9808    0.9807      9225
+
+2022-05-19 14:59:02,436 - root - INFO - Start transform test after adv from SA to IP
+2022-05-19 14:59:02,436 - root - INFO - Adv test loss 7.1216 (%)
+2022-05-19 14:59:02,436 - root - INFO - Adv test accuracy 98.2331 (%)
+2022-05-19 14:59:02,436 - root - INFO - OA 98.2331 (%)
+2022-05-19 14:59:02,436 - root - INFO - Each_Acc: 
+2022-05-19 14:59:02,436 - root - INFO - [ 90.24390244  98.6770428   97.59036145  94.36619718  98.16091954
+  98.17351598  68.         100.          88.88888889  98.28571429
+  98.91402715  97.00374532 100.          98.68305531  97.98270893
+  94.04761905]
+2022-05-19 14:59:02,436 - root - INFO - AA 94.9386 (%)
+2022-05-19 14:59:02,436 - root - INFO - Kappa 97.9853 (%)
+2022-05-19 14:59:02,436 - root - INFO - Adv classification result: 
+2022-05-19 14:59:02,436 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.9487    0.9024    0.9250        41
+                 Corn-notill     0.9868    0.9868    0.9868      1285
+                Corn-mintill     0.9759    0.9759    0.9759       747
+                        Corn     0.9571    0.9437    0.9504       213
+               Grass-pasture     0.9705    0.9816    0.9760       435
+                 Grass-trees     0.9893    0.9817    0.9855       657
+         Grass-pasture-mowed     0.7727    0.6800    0.7234        25
+               Hay-windrowed     0.9931    1.0000    0.9965       430
+                        Oats     1.0000    0.8889    0.9412        18
+              Soybean-notill     0.9740    0.9829    0.9784       875
+             Soybean-mintill     0.9869    0.9891    0.9880      2210
+               Soybean-clean     0.9829    0.9700    0.9764       534
+                       Wheat     1.0000    1.0000    1.0000       185
+                       Woods     0.9929    0.9868    0.9899      1139
+Buildings-Grass-Trees-Drives     0.9551    0.9798    0.9673       347
+          Stone-Steel-Towers     0.9518    0.9405    0.9461        84
+
+                    accuracy                         0.9823      9225
+                   macro avg     0.9649    0.9494    0.9567      9225
+                weighted avg     0.9823    0.9823    0.9823      9225
+
+2022-05-19 14:59:03,112 - root - INFO - Finish!

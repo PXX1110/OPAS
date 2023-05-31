@@ -1,0 +1,309 @@
+2022-05-19 21:32:42,345 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-19 21:32:42,345 - root - INFO - Create Adversarial attack
+2022-05-19 21:32:42,346 - root - INFO - Attack 1 on training examples
+2022-05-19 21:32:42,346 - art.attacks.evasion.fast_gradient - INFO - Using model predictions as correct labels for FGM.
+2022-05-19 21:32:46,320 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-19 21:33:27,136 - art.attacks.evasion.fast_gradient - INFO - Success rate of FGM attack: 10.38%
+2022-05-19 21:33:27,137 - root - INFO - advtraintime-44.7915 (sec)
+2022-05-19 21:33:27,137 - root - INFO - Attack 1 on testing examples
+2022-05-19 21:33:27,137 - art.attacks.evasion.fast_gradient - INFO - Using model predictions as correct labels for FGM.
+2022-05-19 21:35:10,639 - art.attacks.evasion.fast_gradient - INFO - Success rate of FGM attack: 13.52%
+2022-05-19 21:35:10,639 - root - INFO - advtesttime-103.5019 (sec)
+2022-05-19 21:35:24,892 - root - INFO - Classifier before adversarial training 1
+2022-05-19 21:35:24,893 - root - INFO - Start adversarial examples test
+2022-05-19 21:35:24,893 - root - INFO - Test loss on adversarial examples 58.4352 (%)
+2022-05-19 21:35:24,893 - root - INFO - Test accuracy on adversarial examples 87.0325 (%)
+2022-05-19 21:35:24,893 - root - INFO - OA 87.0325 (%)
+2022-05-19 21:35:24,893 - root - INFO - Each_Acc: 
+2022-05-19 21:35:24,893 - root - INFO - [76.8418785  96.07813098 72.9748128  82.56410256 99.46921444 92.72727273
+ 90.76262084 60.06984866 77.52639517]
+2022-05-19 21:35:24,893 - root - INFO - AA 83.2238 (%)
+2022-05-19 21:35:24,893 - root - INFO - Kappa 82.9004 (%)
+2022-05-19 21:35:24,893 - root - INFO - classification result: 
+2022-05-19 21:35:24,893 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.8387    0.7684    0.8020      4642
+             Meadows     0.9730    0.9608    0.9669     13055
+              Gravel     0.6462    0.7297    0.6854      1469
+               Trees     0.6978    0.8256    0.7564      2145
+Painted metal sheets     0.9905    0.9947    0.9926       942
+           Bare Soil     0.9575    0.9273    0.9421      3520
+             Bitumen     0.8196    0.9076    0.8614       931
+Self-Blocking Bricks     0.6207    0.6007    0.6105      2577
+             Shadows     0.7109    0.7753    0.7417       663
+
+            accuracy                         0.8703     29944
+           macro avg     0.8061    0.8322    0.8177     29944
+        weighted avg     0.8743    0.8703    0.8714     29944
+
+2022-05-19 21:35:42,362 - root - INFO - Classifier after adversarial training 1
+2022-05-19 21:35:42,362 - root - INFO - Adv test loss 3.2750 (%)
+2022-05-19 21:35:42,362 - root - INFO - Adv test accuracy 98.9280 (%)
+2022-05-19 21:35:42,362 - root - INFO - OA 98.9280 (%)
+2022-05-19 21:35:42,362 - root - INFO - Each_Acc: 
+2022-05-19 21:35:42,362 - root - INFO - [99.18138733 99.69360398 93.87338325 97.38927739 99.89384289 99.77272727
+ 99.35553169 97.74932092 96.3800905 ]
+2022-05-19 21:35:42,362 - root - INFO - AA 98.1432 (%)
+2022-05-19 21:35:42,362 - root - INFO - Kappa 98.5800 (%)
+2022-05-19 21:35:42,362 - root - INFO - Adv classification result: 
+2022-05-19 21:35:42,362 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9929    0.9918    0.9923      4642
+             Meadows     0.9988    0.9969    0.9979     13055
+              Gravel     0.9711    0.9387    0.9547      1469
+               Trees     0.9794    0.9739    0.9766      2145
+Painted metal sheets     0.9968    0.9989    0.9979       942
+           Bare Soil     0.9966    0.9977    0.9972      3520
+             Bitumen     0.9968    0.9936    0.9952       931
+Self-Blocking Bricks     0.9452    0.9775    0.9611      2577
+             Shadows     0.9638    0.9638    0.9638       663
+
+            accuracy                         0.9893     29944
+           macro avg     0.9824    0.9814    0.9818     29944
+        weighted avg     0.9894    0.9893    0.9893     29944
+
+2022-05-19 21:35:43,063 - root - INFO - Attack 2 on training examples
+2022-05-19 21:35:43,063 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 21:39:36,836 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 17.26%
+2022-05-19 21:39:36,907 - root - INFO - advtraintime-233.8443 (sec)
+2022-05-19 21:39:36,907 - root - INFO - Attack 2 on testing examples
+2022-05-19 21:39:36,907 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 21:48:46,644 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 19.91%
+2022-05-19 21:48:46,792 - root - INFO - advtesttime-549.8853 (sec)
+2022-05-19 21:49:02,322 - root - INFO - Classifier before adversarial training 2
+2022-05-19 21:49:02,323 - root - INFO - Start adversarial examples test
+2022-05-19 21:49:02,323 - root - INFO - Test loss on adversarial examples 103.0792 (%)
+2022-05-19 21:49:02,323 - root - INFO - Test accuracy on adversarial examples 80.6372 (%)
+2022-05-19 21:49:02,323 - root - INFO - OA 80.6372 (%)
+2022-05-19 21:49:02,323 - root - INFO - Each_Acc: 
+2022-05-19 21:49:02,323 - root - INFO - [66.99698406 93.80314056 64.26140231 78.6013986  99.36305732 82.69886364
+ 85.60687433 41.443539   67.57164404]
+2022-05-19 21:49:02,323 - root - INFO - AA 75.5941 (%)
+2022-05-19 21:49:02,323 - root - INFO - Kappa 74.4843 (%)
+2022-05-19 21:49:02,323 - root - INFO - classification result: 
+2022-05-19 21:49:02,323 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.7527    0.6700    0.7089      4642
+             Meadows     0.9467    0.9380    0.9423     13055
+              Gravel     0.5233    0.6426    0.5768      1469
+               Trees     0.6120    0.7860    0.6882      2145
+Painted metal sheets     0.9884    0.9936    0.9910       942
+           Bare Soil     0.9177    0.8270    0.8700      3520
+             Bitumen     0.7352    0.8561    0.7911       931
+Self-Blocking Bricks     0.4578    0.4144    0.4350      2577
+             Shadows     0.5736    0.6757    0.6205       663
+
+            accuracy                         0.8064     29944
+           macro avg     0.7230    0.7559    0.7360     29944
+        weighted avg     0.8128    0.8064    0.8075     29944
+
+2022-05-19 21:49:20,480 - root - INFO - Classifier after adversarial training 2
+2022-05-19 21:49:20,480 - root - INFO - Adv test loss 3.3723 (%)
+2022-05-19 21:49:20,480 - root - INFO - Adv test accuracy 98.8779 (%)
+2022-05-19 21:49:20,480 - root - INFO - OA 98.8779 (%)
+2022-05-19 21:49:20,481 - root - INFO - Each_Acc: 
+2022-05-19 21:49:20,481 - root - INFO - [99.15984489 99.67828418 94.62219197 97.43589744 99.89384289 99.60227273
+ 99.46294307 97.0508343  96.22926094]
+2022-05-19 21:49:20,481 - root - INFO - AA 98.1262 (%)
+2022-05-19 21:49:20,481 - root - INFO - Kappa 98.5136 (%)
+2022-05-19 21:49:20,481 - root - INFO - Adv classification result: 
+2022-05-19 21:49:20,481 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9929    0.9916    0.9922      4642
+             Meadows     0.9985    0.9968    0.9976     13055
+              Gravel     0.9586    0.9462    0.9524      1469
+               Trees     0.9794    0.9744    0.9769      2145
+Painted metal sheets     0.9968    0.9989    0.9979       942
+           Bare Soil     0.9957    0.9960    0.9959      3520
+             Bitumen     0.9968    0.9946    0.9957       931
+Self-Blocking Bricks     0.9477    0.9705    0.9590      2577
+             Shadows     0.9696    0.9623    0.9659       663
+
+            accuracy                         0.9888     29944
+           macro avg     0.9818    0.9813    0.9815     29944
+        weighted avg     0.9888    0.9888    0.9888     29944
+
+2022-05-19 21:49:21,104 - root - INFO - Attack 3 on training examples
+2022-05-19 22:20:08,717 - art.attacks.evasion.carlini - INFO - Success rate of C&W L_2 attack: 0.63%
+2022-05-19 22:20:08,783 - root - INFO - advtraintime-1847.6793 (sec)
+2022-05-19 22:20:08,783 - root - INFO - Attack 3 on testing examples
+2022-05-19 23:31:06,310 - art.attacks.evasion.carlini - INFO - Success rate of C&W L_2 attack: 2.82%
+2022-05-19 23:31:06,471 - root - INFO - advtesttime-4257.6877 (sec)
+2022-05-19 23:31:21,246 - root - INFO - Classifier before adversarial training 3
+2022-05-19 23:31:21,246 - root - INFO - Start adversarial examples test
+2022-05-19 23:31:21,246 - root - INFO - Test loss on adversarial examples 10.4102 (%)
+2022-05-19 23:31:21,247 - root - INFO - Test accuracy on adversarial examples 97.4686 (%)
+2022-05-19 23:31:21,247 - root - INFO - OA 97.4686 (%)
+2022-05-19 23:31:21,247 - root - INFO - Each_Acc: 
+2022-05-19 23:31:21,247 - root - INFO - [95.19603619 99.67062428 95.4390742  93.7995338  99.68152866 99.74431818
+ 98.38882922 91.65696546 92.45852187]
+2022-05-19 23:31:21,247 - root - INFO - AA 96.2262 (%)
+2022-05-19 23:31:21,247 - root - INFO - Kappa 96.6473 (%)
+2022-05-19 23:31:21,247 - root - INFO - classification result: 
+2022-05-19 23:31:21,247 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9721    0.9520    0.9619      4642
+             Meadows     0.9970    0.9967    0.9969     13055
+              Gravel     0.9116    0.9544    0.9325      1469
+               Trees     0.9362    0.9380    0.9371      2145
+Painted metal sheets     0.9937    0.9968    0.9952       942
+           Bare Soil     0.9921    0.9974    0.9948      3520
+             Bitumen     0.9839    0.9839    0.9839       931
+Self-Blocking Bricks     0.9155    0.9166    0.9160      2577
+             Shadows     0.9218    0.9246    0.9232       663
+
+            accuracy                         0.9747     29944
+           macro avg     0.9582    0.9623    0.9602     29944
+        weighted avg     0.9748    0.9747    0.9747     29944
+
+2022-05-19 23:31:39,239 - root - INFO - Classifier after adversarial training 3
+2022-05-19 23:31:39,239 - root - INFO - Adv test loss 2.1215 (%)
+2022-05-19 23:31:39,239 - root - INFO - Adv test accuracy 99.3655 (%)
+2022-05-19 23:31:39,239 - root - INFO - OA 99.3655 (%)
+2022-05-19 23:31:39,239 - root - INFO - Each_Acc: 
+2022-05-19 23:31:39,239 - root - INFO - [99.61223611 99.90042129 97.41320626 97.38927739 99.89384289 99.97159091
+ 99.78517723 98.40900272 96.98340875]
+2022-05-19 23:31:39,239 - root - INFO - AA 98.8176 (%)
+2022-05-19 23:31:39,239 - root - INFO - Kappa 99.1592 (%)
+2022-05-19 23:31:39,239 - root - INFO - Adv classification result: 
+2022-05-19 23:31:39,240 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9944    0.9961    0.9953      4642
+             Meadows     0.9991    0.9990    0.9990     13055
+              Gravel     0.9795    0.9741    0.9768      1469
+               Trees     0.9886    0.9739    0.9812      2145
+Painted metal sheets     0.9968    0.9989    0.9979       942
+           Bare Soil     0.9986    0.9997    0.9991      3520
+             Bitumen     0.9989    0.9979    0.9984       931
+Self-Blocking Bricks     0.9716    0.9841    0.9778      2577
+             Shadows     0.9772    0.9698    0.9735       663
+
+            accuracy                         0.9937     29944
+           macro avg     0.9894    0.9882    0.9888     29944
+        weighted avg     0.9937    0.9937    0.9937     29944
+
+2022-05-19 23:31:39,763 - root - INFO - Attack 4 on training examples
+2022-05-19 23:31:39,763 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 23:34:02,753 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 16.85%
+2022-05-19 23:34:02,822 - root - INFO - advtraintime-143.0587 (sec)
+2022-05-19 23:34:02,822 - root - INFO - Attack 4 on testing examples
+2022-05-19 23:34:02,822 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 23:39:42,226 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 19.52%
+2022-05-19 23:39:42,380 - root - INFO - advtesttime-339.5574 (sec)
+2022-05-19 23:39:56,590 - root - INFO - Classifier before adversarial training 4
+2022-05-19 23:39:56,591 - root - INFO - Start adversarial examples test
+2022-05-19 23:39:56,591 - root - INFO - Test loss on adversarial examples 100.3755 (%)
+2022-05-19 23:39:56,591 - root - INFO - Test accuracy on adversarial examples 81.0379 (%)
+2022-05-19 23:39:56,591 - root - INFO - OA 81.0379 (%)
+2022-05-19 23:39:56,591 - root - INFO - Each_Acc: 
+2022-05-19 23:39:56,591 - root - INFO - [67.77251185 93.91037917 64.80599047 78.92773893 99.36305732 83.32386364
+ 85.8216971  42.56887854 67.87330317]
+2022-05-19 23:39:56,591 - root - INFO - AA 76.0408 (%)
+2022-05-19 23:39:56,591 - root - INFO - Kappa 75.0134 (%)
+2022-05-19 23:39:56,591 - root - INFO - classification result: 
+2022-05-19 23:39:56,591 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.7584    0.6777    0.7158      4642
+             Meadows     0.9486    0.9391    0.9438     13055
+              Gravel     0.5301    0.6481    0.5832      1469
+               Trees     0.6195    0.7893    0.6941      2145
+Painted metal sheets     0.9884    0.9936    0.9910       942
+           Bare Soil     0.9177    0.8332    0.8734      3520
+             Bitumen     0.7433    0.8582    0.7966       931
+Self-Blocking Bricks     0.4670    0.4257    0.4454      2577
+             Shadows     0.5799    0.6787    0.6254       663
+
+            accuracy                         0.8104     29944
+           macro avg     0.7281    0.7604    0.7410     29944
+        weighted avg     0.8166    0.8104    0.8116     29944
+
+2022-05-19 23:40:14,384 - root - INFO - Classifier after adversarial training 4
+2022-05-19 23:40:14,384 - root - INFO - Adv test loss 3.3720 (%)
+2022-05-19 23:40:14,384 - root - INFO - Adv test accuracy 98.8812 (%)
+2022-05-19 23:40:14,384 - root - INFO - OA 98.8812 (%)
+2022-05-19 23:40:14,384 - root - INFO - Each_Acc: 
+2022-05-19 23:40:14,384 - root - INFO - [99.18138733 99.67062428 94.62219197 97.43589744 99.89384289 99.60227273
+ 99.46294307 97.0508343  96.3800905 ]
+2022-05-19 23:40:14,384 - root - INFO - AA 98.1445 (%)
+2022-05-19 23:40:14,384 - root - INFO - Kappa 98.5181 (%)
+2022-05-19 23:40:14,384 - root - INFO - Adv classification result: 
+2022-05-19 23:40:14,384 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9931    0.9918    0.9925      4642
+             Meadows     0.9985    0.9967    0.9976     13055
+              Gravel     0.9586    0.9462    0.9524      1469
+               Trees     0.9789    0.9744    0.9766      2145
+Painted metal sheets     0.9968    0.9989    0.9979       942
+           Bare Soil     0.9957    0.9960    0.9959      3520
+             Bitumen     0.9968    0.9946    0.9957       931
+Self-Blocking Bricks     0.9481    0.9705    0.9592      2577
+             Shadows     0.9697    0.9638    0.9667       663
+
+            accuracy                         0.9888     29944
+           macro avg     0.9818    0.9814    0.9816     29944
+        weighted avg     0.9889    0.9888    0.9888     29944
+
+2022-05-19 23:40:14,932 - root - INFO - Attack 5 on training examples
+2022-05-19 23:40:22,790 - art.attacks.evasion.deepfool - WARNING - It seems that the attacked model is predicting probabilities. DeepFool expects logits as model output to achieve its full attack strength.
+2022-05-20 00:40:38,583 - art.attacks.evasion.deepfool - INFO - Success rate of DeepFool attack: 71.03%
+2022-05-20 00:40:38,653 - root - INFO - advtraintime-3623.7208 (sec)
+2022-05-20 00:40:38,653 - root - INFO - Attack 5 on testing examples
+2022-05-20 00:41:00,453 - art.attacks.evasion.deepfool - WARNING - It seems that the attacked model is predicting probabilities. DeepFool expects logits as model output to achieve its full attack strength.
+2022-05-20 03:01:31,996 - art.attacks.evasion.deepfool - INFO - Success rate of DeepFool attack: 70.89%
+2022-05-20 03:01:32,237 - root - INFO - advtesttime-8453.5838 (sec)
+2022-05-20 03:01:47,135 - root - INFO - Classifier before adversarial training 5
+2022-05-20 03:01:47,136 - root - INFO - Start adversarial examples test
+2022-05-20 03:01:47,136 - root - INFO - Test loss on adversarial examples 1096.5083 (%)
+2022-05-20 03:01:47,136 - root - INFO - Test accuracy on adversarial examples 29.5952 (%)
+2022-05-20 03:01:47,136 - root - INFO - OA 29.5952 (%)
+2022-05-20 03:01:47,136 - root - INFO - Each_Acc: 
+2022-05-20 03:01:47,136 - root - INFO - [ 6.39810427 55.86365377  9.93873383 33.89277389 23.03609342  3.06818182
+  1.18152524  1.82382615  2.413273  ]
+2022-05-20 03:01:47,136 - root - INFO - AA 15.2907 (%)
+2022-05-20 03:01:47,136 - root - INFO - Kappa 11.4865 (%)
+2022-05-20 03:01:47,136 - root - INFO - classification result: 
+2022-05-20 03:01:47,136 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.1620    0.0640    0.0917      4642
+             Meadows     0.6930    0.5586    0.6186     13055
+              Gravel     0.5052    0.0994    0.1661      1469
+               Trees     0.0662    0.3389    0.1108      2145
+Painted metal sheets     0.3380    0.2304    0.2740       942
+           Bare Soil     0.1184    0.0307    0.0487      3520
+             Bitumen     0.0514    0.0118    0.0192       931
+Self-Blocking Bricks     0.0138    0.0182    0.0157      2577
+             Shadows     0.0141    0.0241    0.0178       663
+
+            accuracy                         0.2960     29944
+           macro avg     0.2180    0.1529    0.1514     29944
+        weighted avg     0.3844    0.2960    0.3167     29944
+
+2022-05-20 03:02:09,472 - root - INFO - Classifier after adversarial training 5
+2022-05-20 03:02:09,472 - root - INFO - Adv test loss 939.8353 (%)
+2022-05-20 03:02:09,472 - root - INFO - Adv test accuracy 37.7371 (%)
+2022-05-20 03:02:09,472 - root - INFO - OA 37.7371 (%)
+2022-05-20 03:02:09,472 - root - INFO - Each_Acc: 
+2022-05-20 03:02:09,472 - root - INFO - [18.82809134 62.31328993 15.58883594 43.72960373 39.17197452 13.97727273
+ 15.6820623   2.91036088  6.33484163]
+2022-05-20 03:02:09,472 - root - INFO - AA 24.2818 (%)
+2022-05-20 03:02:09,472 - root - INFO - Kappa 21.2129 (%)
+2022-05-20 03:02:09,472 - root - INFO - Adv classification result: 
+2022-05-20 03:02:09,472 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.3489    0.1883    0.2446      4642
+             Meadows     0.7626    0.6231    0.6859     13055
+              Gravel     0.1650    0.1559    0.1603      1469
+               Trees     0.1175    0.4373    0.1853      2145
+Painted metal sheets     0.4020    0.3917    0.3968       942
+           Bare Soil     0.1721    0.1398    0.1543      3520
+             Bitumen     0.2645    0.1568    0.1969       931
+Self-Blocking Bricks     0.0317    0.0291    0.0303      2577
+             Shadows     0.0594    0.0633    0.0613       663
+
+            accuracy                         0.3774     29944
+           macro avg     0.2582    0.2428    0.2351     29944
+        weighted avg     0.4482    0.3774    0.3988     29944
+
+2022-05-20 03:02:10,219 - root - INFO - Finish!

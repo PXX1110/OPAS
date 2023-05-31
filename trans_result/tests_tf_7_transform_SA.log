@@ -1,0 +1,72 @@
+2022-05-19 14:45:02,474 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-19 14:45:50,012 - root - INFO - Start transform test before adv from IP to SA
+2022-05-19 14:45:50,013 - root - INFO - Test loss on transform examples 1531.8005 (%)
+2022-05-19 14:45:50,013 - root - INFO - Test accuracy on transform examples 1.2562 (%)
+2022-05-19 14:45:50,013 - root - INFO - OA 1.2562 (%)
+2022-05-19 14:45:50,013 - root - INFO - Each_Acc: 
+2022-05-19 14:45:50,013 - root - INFO - [16.57183499  2.87576687  0.          0.          4.37333333  0.
+  0.          0.          0.          0.08714597  0.          6.22683469
+  0.          0.          0.          0.        ]
+2022-05-19 14:45:50,013 - root - INFO - AA 1.8834 (%)
+2022-05-19 14:45:50,013 - root - INFO - Kappa -2.3495 (%)
+2022-05-19 14:45:50,013 - root - INFO - classification result: 
+2022-05-19 14:45:50,013 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     0.4315    0.1657    0.2395      1406
+   Brocoli_green_weeds_22     0.0572    0.0288    0.0383      2608
+                   Fallow     0.0000    0.0000    0.0000      1383
+        Fallow_rough_plow     0.0000    0.0000    0.0000       976
+            Fallow_smooth     0.0416    0.0437    0.0426      1875
+                  Stubble     0.0000    0.0000    0.0000      2771
+                   Celery     0.0000    0.0000    0.0000      2505
+         Grapes_untrained     0.0000    0.0000    0.0000      7890
+     Soil_vinyard_develop     0.0000    0.0000    0.0000      4342
+Corn_senesced_green_weeds     0.0011    0.0009    0.0010      2295
+      Lettuce_romaine_4wk     0.0000    0.0000    0.0000       748
+      Lettuce_romaine_5wk     0.0282    0.0623    0.0388      1349
+      Lettuce_romaine_6wk     0.0000    0.0000    0.0000       641
+      Lettuce_romaine_7wk     0.0000    0.0000    0.0000       749
+        Vinyard_untrained     0.0000    0.0000    0.0000      5088
+ Vinyard_vertical_trellis     0.0000    0.0000    0.0000      1265
+
+                 accuracy                         0.0126     37891
+                macro avg     0.0350    0.0188    0.0225     37891
+             weighted avg     0.0231    0.0126    0.0151     37891
+
+2022-05-19 14:46:21,114 - root - INFO - Start transform test after adv from IP to SA
+2022-05-19 14:46:21,114 - root - INFO - Adv test loss 1521.9935 (%)
+2022-05-19 14:46:21,114 - root - INFO - Adv test accuracy 1.4726 (%)
+2022-05-19 14:46:21,114 - root - INFO - OA 1.4726 (%)
+2022-05-19 14:46:21,114 - root - INFO - Each_Acc: 
+2022-05-19 14:46:21,114 - root - INFO - [ 0.          0.          0.          5.94262295  0.          0.
+  0.          0.03802281  0.         12.24400871  0.         16.01186064
+  0.          0.          0.          0.        ]
+2022-05-19 14:46:21,114 - root - INFO - AA 2.1398 (%)
+2022-05-19 14:46:21,114 - root - INFO - Kappa -3.8815 (%)
+2022-05-19 14:46:21,114 - root - INFO - Adv classification result: 
+2022-05-19 14:46:21,114 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     0.0000    0.0000    0.0000      1406
+   Brocoli_green_weeds_22     0.0000    0.0000    0.0000      2608
+                   Fallow     0.0000    0.0000    0.0000      1383
+        Fallow_rough_plow     0.1349    0.0594    0.0825       976
+            Fallow_smooth     0.0000    0.0000    0.0000      1875
+                  Stubble     0.0000    0.0000    0.0000      2771
+                   Celery     0.0000    0.0000    0.0000      2505
+         Grapes_untrained     0.0037    0.0004    0.0007      7890
+     Soil_vinyard_develop     0.0000    0.0000    0.0000      4342
+Corn_senesced_green_weeds     0.1713    0.1224    0.1428      2295
+      Lettuce_romaine_4wk     0.0000    0.0000    0.0000       748
+      Lettuce_romaine_5wk     0.0727    0.1601    0.1000      1349
+      Lettuce_romaine_6wk     0.0000    0.0000    0.0000       641
+      Lettuce_romaine_7wk     0.0000    0.0000    0.0000       749
+        Vinyard_untrained     0.0000    0.0000    0.0000      5088
+ Vinyard_vertical_trellis     0.0000    0.0000    0.0000      1265
+
+                 accuracy                         0.0147     37891
+                macro avg     0.0239    0.0214    0.0204     37891
+             weighted avg     0.0172    0.0147    0.0145     37891
+
+2022-05-19 14:46:21,906 - root - INFO - Finish!

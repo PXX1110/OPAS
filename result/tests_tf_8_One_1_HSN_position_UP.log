@@ -1,0 +1,129 @@
+2022-05-19 12:41:29,405 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-19 12:41:49,880 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2048: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-19 13:12:08,284 - root - INFO - Finished test
+2022-05-19 13:12:08,284 - root - INFO - Test loss 5.8752 (%)
+2022-05-19 13:12:08,284 - root - INFO - Test accuracy 98.9889 (%)
+2022-05-19 13:12:08,284 - root - INFO - OA 98.9889 (%)
+2022-05-19 13:12:08,284 - root - INFO - Each_Acc: 
+2022-05-19 13:12:08,284 - root - INFO - [98.5862394  99.96648569 97.97498511 94.77764178 99.81412639 99.67685807
+ 99.71804511 97.8275628  97.09762533]
+2022-05-19 13:12:08,284 - root - INFO - AA 98.3822 (%)
+2022-05-19 13:12:08,284 - root - INFO - Kappa 98.6588 (%)
+2022-05-19 13:12:08,284 - root - INFO - classification result: 
+2022-05-19 13:12:08,284 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9874    0.9859    0.9866      5305
+             Meadows     0.9945    0.9997    0.9971     14919
+              Gravel     0.9874    0.9797    0.9836      1679
+               Trees     0.9827    0.9478    0.9649      2451
+Painted metal sheets     0.9972    0.9981    0.9977      1076
+           Bare Soil     0.9998    0.9968    0.9983      4023
+             Bitumen     0.9962    0.9972    0.9967      1064
+Self-Blocking Bricks     0.9658    0.9783    0.9720      2946
+             Shadows     0.9684    0.9710    0.9697       758
+
+            accuracy                         0.9899     34221
+           macro avg     0.9866    0.9838    0.9852     34221
+        weighted avg     0.9899    0.9899    0.9899     34221
+
+2022-05-19 13:13:16,698 - root - INFO - Create PixelAttack attack
+2022-05-19 13:13:16,698 - root - INFO - Craft attack on training examples
+2022-05-19 14:46:56,884 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 100.00%
+2022-05-19 14:46:56,949 - root - INFO - advtraintime-5620.2501 (sec)
+2022-05-19 14:46:56,949 - root - INFO - Craft attack test examples
+2022-05-19 20:09:13,820 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 100.00%
+2022-05-19 20:09:13,927 - root - INFO - advtesttime-19336.9780 (sec)
+2022-05-19 20:10:36,655 - root - INFO - Classifier before adversarial training
+2022-05-19 20:10:36,656 - root - INFO - Start adversarial examples test
+2022-05-19 20:10:36,656 - root - INFO - Test loss on adversarial examples 1603.5424 (%)
+2022-05-19 20:10:36,656 - root - INFO - Test accuracy on adversarial examples 0.4033 (%)
+2022-05-19 20:10:36,656 - root - INFO - OA 0.4033 (%)
+2022-05-19 20:10:36,656 - root - INFO - Each_Acc: 
+2022-05-19 20:10:36,656 - root - INFO - [0.47125353 0.02681145 0.29779631 2.81517748 0.         0.09942829
+ 0.         1.01832994 0.13192612]
+2022-05-19 20:10:36,656 - root - INFO - AA 0.5401 (%)
+2022-05-19 20:10:36,656 - root - INFO - Kappa -15.7798 (%)
+2022-05-19 20:10:36,656 - root - INFO - classification result: 
+2022-05-19 20:10:36,656 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.0049    0.0047    0.0048      5305
+             Meadows     0.0009    0.0003    0.0004     14919
+              Gravel     0.0165    0.0030    0.0050      1679
+               Trees     0.0085    0.0282    0.0131      2451
+Painted metal sheets     0.0000    0.0000    0.0000      1076
+           Bare Soil     0.0010    0.0010    0.0010      4023
+             Bitumen     0.0000    0.0000    0.0000      1064
+Self-Blocking Bricks     0.0025    0.0102    0.0040      2946
+             Shadows     0.0068    0.0013    0.0022       758
+
+            accuracy                         0.0040     34221
+           macro avg     0.0046    0.0054    0.0034     34221
+        weighted avg     0.0031    0.0040    0.0026     34221
+
+2022-05-19 20:44:39,449 - root - INFO - Classifier after adversarial training
+2022-05-19 20:44:39,449 - root - INFO - Adv test loss 3.5687 (%)
+2022-05-19 20:44:39,449 - root - INFO - Adv test accuracy 99.5149 (%)
+2022-05-19 20:44:39,449 - root - INFO - OA 99.5149 (%)
+2022-05-19 20:44:39,449 - root - INFO - Each_Acc: 
+2022-05-19 20:44:39,449 - root - INFO - [ 99.84919887  99.99329714  99.34484812  96.57282742 100.
+  99.92542878 100.          98.33672777  98.68073879]
+2022-05-19 20:44:39,449 - root - INFO - AA 99.1892 (%)
+2022-05-19 20:44:39,449 - root - INFO - Kappa 99.3570 (%)
+2022-05-19 20:44:39,449 - root - INFO - Adv classification result: 
+2022-05-19 20:44:39,449 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9844    0.9985    0.9914      5305
+             Meadows     0.9993    0.9999    0.9996     14919
+              Gravel     0.9923    0.9934    0.9929      1679
+               Trees     0.9975    0.9657    0.9813      2451
+Painted metal sheets     0.9991    1.0000    0.9995      1076
+           Bare Soil     0.9998    0.9993    0.9995      4023
+             Bitumen     0.9972    1.0000    0.9986      1064
+Self-Blocking Bricks     0.9864    0.9834    0.9849      2946
+             Shadows     0.9907    0.9868    0.9888       758
+
+            accuracy                         0.9951     34221
+           macro avg     0.9941    0.9919    0.9929     34221
+        weighted avg     0.9952    0.9951    0.9951     34221
+
+2022-05-19 20:45:48,753 - root - INFO - Finish!
+2022-05-24 22:33:51,719 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-24 22:33:51,719 - root - INFO - Create PixelAttack attack
+2022-05-24 22:33:51,719 - root - INFO - Craft attack on training examples
+2022-05-24 22:33:52,770 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-24 23:21:05,518 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 100.00%
+2022-05-24 23:21:05,537 - root - INFO - advtraintime-2833.8172 (sec)
+2022-05-24 23:21:05,537 - root - INFO - Craft attack test examples
+2022-05-25 02:28:12,716 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 100.00%
+2022-05-25 02:28:12,789 - root - INFO - advtesttime-11227.2523 (sec)
+2022-05-25 03:01:03,741 - root - INFO - Classifier after adversarial training
+2022-05-25 03:01:03,742 - root - INFO - Adv test loss 5.8721 (%)
+2022-05-25 03:01:03,742 - root - INFO - Adv test accuracy 99.0415 (%)
+2022-05-25 03:01:03,742 - root - INFO - OA 99.0415 (%)
+2022-05-25 03:01:03,742 - root - INFO - Each_Acc: 
+2022-05-25 03:01:03,742 - root - INFO - [98.98209237 99.95978283 97.61762954 96.20563035 99.53531599 99.8260005
+ 99.53007519 97.62389681 93.66754617]
+2022-05-25 03:01:03,742 - root - INFO - AA 98.1053 (%)
+2022-05-25 03:01:03,742 - root - INFO - Kappa 98.7295 (%)
+2022-05-25 03:01:03,742 - root - INFO - Adv classification result: 
+2022-05-25 03:01:03,742 - root - INFO -                       precision    recall  f1-score   support
+
+             Asphalt     0.9854    0.9898    0.9876      5305
+             Meadows     0.9986    0.9996    0.9991     14919
+              Gravel     0.9681    0.9762    0.9721      1679
+               Trees     0.9837    0.9621    0.9728      2451
+Painted metal sheets     0.9991    0.9954    0.9972      1076
+           Bare Soil     0.9980    0.9983    0.9981      4023
+             Bitumen     0.9934    0.9953    0.9944      1064
+Self-Blocking Bricks     0.9670    0.9762    0.9716      2946
+             Shadows     0.9699    0.9367    0.9530       758
+
+            accuracy                         0.9904     34221
+           macro avg     0.9848    0.9811    0.9829     34221
+        weighted avg     0.9904    0.9904    0.9904     34221
+
+2022-05-25 03:02:12,837 - root - INFO - Finish!

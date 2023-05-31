@@ -1,0 +1,399 @@
+2022-05-19 08:22:40,899 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-19 08:22:40,900 - root - INFO - Create Adversarial attack
+2022-05-19 08:22:40,900 - root - INFO - Attack 1 on training examples
+2022-05-19 08:22:40,901 - art.attacks.evasion.fast_gradient - INFO - Using model predictions as correct labels for FGM.
+2022-05-19 08:22:43,139 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-19 08:23:17,508 - art.attacks.evasion.fast_gradient - INFO - Success rate of FGM attack: 0.23%
+2022-05-19 08:23:17,509 - root - INFO - advtraintime-36.6088 (sec)
+2022-05-19 08:23:17,509 - root - INFO - Attack 1 on testing examples
+2022-05-19 08:23:17,509 - art.attacks.evasion.fast_gradient - INFO - Using model predictions as correct labels for FGM.
+2022-05-19 08:24:35,492 - art.attacks.evasion.fast_gradient - INFO - Success rate of FGM attack: 0.49%
+2022-05-19 08:24:35,493 - root - INFO - advtesttime-77.9832 (sec)
+2022-05-19 08:24:52,844 - root - INFO - Classifier before adversarial training 1
+2022-05-19 08:24:52,844 - root - INFO - Start adversarial examples test
+2022-05-19 08:24:52,844 - root - INFO - Test loss on adversarial examples 2.9391 (%)
+2022-05-19 08:24:52,845 - root - INFO - Test accuracy on adversarial examples 99.5118 (%)
+2022-05-19 08:24:52,845 - root - INFO - OA 99.5118 (%)
+2022-05-19 08:24:52,845 - root - INFO - Each_Acc: 
+2022-05-19 08:24:52,845 - root - INFO - [100.         100.          99.71077368  96.20901639  99.2
+  99.42259112  99.88023952  99.65779468  99.90787655  99.82570806
+ 100.          97.99851742  99.84399376  99.7329773   99.11556604
+ 100.        ]
+2022-05-19 08:24:52,845 - root - INFO - AA 99.4066 (%)
+2022-05-19 08:24:52,845 - root - INFO - Kappa 99.4563 (%)
+2022-05-19 08:24:52,845 - root - INFO - classification result: 
+2022-05-19 08:24:52,845 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     0.9985    1.0000    0.9992      2608
+                   Fallow     1.0000    0.9971    0.9986      1383
+        Fallow_rough_plow     0.9843    0.9621    0.9731       976
+            Fallow_smooth     0.9795    0.9920    0.9857      1875
+                  Stubble     0.9978    0.9942    0.9960      2771
+                   Celery     0.9948    0.9988    0.9968      2505
+         Grapes_untrained     0.9948    0.9966    0.9957      7890
+     Soil_vinyard_develop     0.9993    0.9991    0.9992      4342
+Corn_senesced_green_weeds     0.9996    0.9983    0.9989      2295
+      Lettuce_romaine_4wk     0.9947    1.0000    0.9973       748
+      Lettuce_romaine_5wk     0.9962    0.9800    0.9880      1349
+      Lettuce_romaine_6wk     0.9639    0.9984    0.9808       641
+      Lettuce_romaine_7wk     0.9973    0.9973    0.9973       749
+        Vinyard_untrained     0.9947    0.9912    0.9929      5088
+ Vinyard_vertical_trellis     0.9992    1.0000    0.9996      1265
+
+                 accuracy                         0.9951     37891
+                macro avg     0.9934    0.9941    0.9937     37891
+             weighted avg     0.9951    0.9951    0.9951     37891
+
+2022-05-19 08:25:13,690 - root - INFO - Classifier after adversarial training 1
+2022-05-19 08:25:13,690 - root - INFO - Adv test loss 0.2453 (%)
+2022-05-19 08:25:13,690 - root - INFO - Adv test accuracy 99.9551 (%)
+2022-05-19 08:25:13,690 - root - INFO - OA 99.9551 (%)
+2022-05-19 08:25:13,690 - root - INFO - Each_Acc: 
+2022-05-19 08:25:13,690 - root - INFO - [100.         100.         100.          99.89754098  99.84
+  99.85564778 100.         100.         100.          99.86928105
+ 100.          99.62935508 100.          99.86648865 100.
+ 100.        ]
+2022-05-19 08:25:13,690 - root - INFO - AA 99.9349 (%)
+2022-05-19 08:25:13,690 - root - INFO - Kappa 99.9500 (%)
+2022-05-19 08:25:13,691 - root - INFO - Adv classification result: 
+2022-05-19 08:25:13,691 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      2608
+                   Fallow     1.0000    1.0000    1.0000      1383
+        Fallow_rough_plow     0.9969    0.9990    0.9980       976
+            Fallow_smooth     0.9995    0.9984    0.9989      1875
+                  Stubble     1.0000    0.9986    0.9993      2771
+                   Celery     0.9984    1.0000    0.9992      2505
+         Grapes_untrained     1.0000    1.0000    1.0000      7890
+     Soil_vinyard_develop     0.9993    1.0000    0.9997      4342
+Corn_senesced_green_weeds     1.0000    0.9987    0.9993      2295
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       748
+      Lettuce_romaine_5wk     1.0000    0.9963    0.9981      1349
+      Lettuce_romaine_6wk     0.9907    1.0000    0.9953       641
+      Lettuce_romaine_7wk     1.0000    0.9987    0.9993       749
+        Vinyard_untrained     1.0000    1.0000    1.0000      5088
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1265
+
+                 accuracy                         0.9996     37891
+                macro avg     0.9991    0.9993    0.9992     37891
+             weighted avg     0.9996    0.9996    0.9996     37891
+
+2022-05-19 08:25:15,183 - root - INFO - Attack 2 on training examples
+2022-05-19 08:25:15,183 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 08:28:21,723 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 0.41%
+2022-05-19 08:28:21,726 - root - INFO - advtraintime-186.5431 (sec)
+2022-05-19 08:28:21,726 - root - INFO - Attack 2 on testing examples
+2022-05-19 08:28:21,726 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 08:35:37,763 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 0.70%
+2022-05-19 08:35:37,768 - root - INFO - advtesttime-436.0422 (sec)
+2022-05-19 08:35:54,402 - root - INFO - Classifier before adversarial training 2
+2022-05-19 08:35:54,403 - root - INFO - Start adversarial examples test
+2022-05-19 08:35:54,403 - root - INFO - Test loss on adversarial examples 4.4634 (%)
+2022-05-19 08:35:54,403 - root - INFO - Test accuracy on adversarial examples 99.3059 (%)
+2022-05-19 08:35:54,403 - root - INFO - OA 99.3059 (%)
+2022-05-19 08:35:54,403 - root - INFO - Each_Acc: 
+2022-05-19 08:35:54,403 - root - INFO - [100.         100.          99.6384671   95.69672131  99.09333333
+  99.2782389   99.84031936  99.55640051  99.88484569  99.56427015
+ 100.          97.55374351  99.84399376  99.59946595  98.27044025
+ 100.        ]
+2022-05-19 08:35:54,403 - root - INFO - AA 99.2388 (%)
+2022-05-19 08:35:54,403 - root - INFO - Kappa 99.2271 (%)
+2022-05-19 08:35:54,403 - root - INFO - classification result: 
+2022-05-19 08:35:54,403 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     0.9981    1.0000    0.9990      2608
+                   Fallow     0.9986    0.9964    0.9975      1383
+        Fallow_rough_plow     0.9801    0.9570    0.9684       976
+            Fallow_smooth     0.9774    0.9909    0.9841      1875
+                  Stubble     0.9975    0.9928    0.9951      2771
+                   Celery     0.9932    0.9984    0.9958      2505
+         Grapes_untrained     0.9900    0.9956    0.9928      7890
+     Soil_vinyard_develop     0.9979    0.9988    0.9984      4342
+Corn_senesced_green_weeds     0.9991    0.9956    0.9974      2295
+      Lettuce_romaine_4wk     0.9920    1.0000    0.9960       748
+      Lettuce_romaine_5wk     0.9955    0.9755    0.9854      1349
+      Lettuce_romaine_6wk     0.9581    0.9984    0.9778       641
+      Lettuce_romaine_7wk     0.9973    0.9960    0.9967       749
+        Vinyard_untrained     0.9930    0.9827    0.9878      5088
+ Vinyard_vertical_trellis     0.9976    1.0000    0.9988      1265
+
+                 accuracy                         0.9931     37891
+                macro avg     0.9916    0.9924    0.9919     37891
+             weighted avg     0.9931    0.9931    0.9931     37891
+
+2022-05-19 08:36:16,455 - root - INFO - Classifier after adversarial training 2
+2022-05-19 08:36:16,455 - root - INFO - Adv test loss 0.2656 (%)
+2022-05-19 08:36:16,456 - root - INFO - Adv test accuracy 99.9525 (%)
+2022-05-19 08:36:16,456 - root - INFO - OA 99.9525 (%)
+2022-05-19 08:36:16,456 - root - INFO - Each_Acc: 
+2022-05-19 08:36:16,456 - root - INFO - [100.         100.         100.          99.89754098  99.84
+  99.85564778 100.         100.         100.          99.86928105
+ 100.          99.55522609 100.          99.86648865 100.
+ 100.        ]
+2022-05-19 08:36:16,456 - root - INFO - AA 99.9303 (%)
+2022-05-19 08:36:16,456 - root - INFO - Kappa 99.9471 (%)
+2022-05-19 08:36:16,456 - root - INFO - Adv classification result: 
+2022-05-19 08:36:16,456 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      2608
+                   Fallow     1.0000    1.0000    1.0000      1383
+        Fallow_rough_plow     0.9969    0.9990    0.9980       976
+            Fallow_smooth     0.9995    0.9984    0.9989      1875
+                  Stubble     1.0000    0.9986    0.9993      2771
+                   Celery     0.9984    1.0000    0.9992      2505
+         Grapes_untrained     1.0000    1.0000    1.0000      7890
+     Soil_vinyard_develop     0.9993    1.0000    0.9997      4342
+Corn_senesced_green_weeds     1.0000    0.9987    0.9993      2295
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       748
+      Lettuce_romaine_5wk     1.0000    0.9956    0.9978      1349
+      Lettuce_romaine_6wk     0.9892    1.0000    0.9946       641
+      Lettuce_romaine_7wk     1.0000    0.9987    0.9993       749
+        Vinyard_untrained     1.0000    1.0000    1.0000      5088
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1265
+
+                 accuracy                         0.9995     37891
+                macro avg     0.9990    0.9993    0.9991     37891
+             weighted avg     0.9995    0.9995    0.9995     37891
+
+2022-05-19 08:36:17,826 - root - INFO - Attack 3 on training examples
+2022-05-19 09:30:28,955 - art.attacks.evasion.carlini - INFO - Success rate of C&W L_2 attack: 0.00%
+2022-05-19 09:30:28,958 - root - INFO - advtraintime-3251.1326 (sec)
+2022-05-19 09:30:28,958 - root - INFO - Attack 3 on testing examples
+2022-05-19 11:36:25,910 - art.attacks.evasion.carlini - INFO - Success rate of C&W L_2 attack: 0.04%
+2022-05-19 11:36:25,916 - root - INFO - advtesttime-7556.9577 (sec)
+2022-05-19 11:36:42,643 - root - INFO - Classifier before adversarial training 3
+2022-05-19 11:36:42,643 - root - INFO - Start adversarial examples test
+2022-05-19 11:36:42,643 - root - INFO - Test loss on adversarial examples 0.0982 (%)
+2022-05-19 11:36:42,644 - root - INFO - Test accuracy on adversarial examples 99.9631 (%)
+2022-05-19 11:36:42,644 - root - INFO - OA 99.9631 (%)
+2022-05-19 11:36:42,644 - root - INFO - Each_Acc: 
+2022-05-19 11:36:42,644 - root - INFO - [100.         100.          99.92769342  99.79508197  99.94666667
+  99.89173584  99.96007984  99.98732573 100.         100.
+ 100.          99.85174203 100.          99.7329773   99.98034591
+ 100.        ]
+2022-05-19 11:36:42,644 - root - INFO - AA 99.9421 (%)
+2022-05-19 11:36:42,644 - root - INFO - Kappa 99.9589 (%)
+2022-05-19 11:36:42,644 - root - INFO - classification result: 
+2022-05-19 11:36:42,644 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     0.9996    1.0000    0.9998      2608
+                   Fallow     1.0000    0.9993    0.9996      1383
+        Fallow_rough_plow     0.9990    0.9980    0.9985       976
+            Fallow_smooth     0.9989    0.9995    0.9992      1875
+                  Stubble     0.9996    0.9989    0.9993      2771
+                   Celery     0.9988    0.9996    0.9992      2505
+         Grapes_untrained     0.9999    0.9999    0.9999      7890
+     Soil_vinyard_develop     1.0000    1.0000    1.0000      4342
+Corn_senesced_green_weeds     1.0000    1.0000    1.0000      2295
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       748
+      Lettuce_romaine_5wk     1.0000    0.9985    0.9993      1349
+      Lettuce_romaine_6wk     0.9938    1.0000    0.9969       641
+      Lettuce_romaine_7wk     1.0000    0.9973    0.9987       749
+        Vinyard_untrained     0.9998    0.9998    0.9998      5088
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1265
+
+                 accuracy                         0.9996     37891
+                macro avg     0.9993    0.9994    0.9994     37891
+             weighted avg     0.9996    0.9996    0.9996     37891
+
+2022-05-19 11:37:06,648 - root - INFO - Classifier after adversarial training 3
+2022-05-19 11:37:06,649 - root - INFO - Adv test loss 0.0531 (%)
+2022-05-19 11:37:06,649 - root - INFO - Adv test accuracy 99.9868 (%)
+2022-05-19 11:37:06,649 - root - INFO - OA 99.9868 (%)
+2022-05-19 11:37:06,649 - root - INFO - Each_Acc: 
+2022-05-19 11:37:06,649 - root - INFO - [100.         100.         100.         100.          99.94666667
+  99.96391195 100.         100.         100.         100.
+ 100.          99.77761305 100.         100.         100.
+ 100.        ]
+2022-05-19 11:37:06,649 - root - INFO - AA 99.9805 (%)
+2022-05-19 11:37:06,649 - root - INFO - Kappa 99.9853 (%)
+2022-05-19 11:37:06,649 - root - INFO - Adv classification result: 
+2022-05-19 11:37:06,649 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      2608
+                   Fallow     1.0000    1.0000    1.0000      1383
+        Fallow_rough_plow     0.9990    1.0000    0.9995       976
+            Fallow_smooth     1.0000    0.9995    0.9997      1875
+                  Stubble     1.0000    0.9996    0.9998      2771
+                   Celery     0.9996    1.0000    0.9998      2505
+         Grapes_untrained     1.0000    1.0000    1.0000      7890
+     Soil_vinyard_develop     1.0000    1.0000    1.0000      4342
+Corn_senesced_green_weeds     1.0000    1.0000    1.0000      2295
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       748
+      Lettuce_romaine_5wk     1.0000    0.9978    0.9989      1349
+      Lettuce_romaine_6wk     0.9953    1.0000    0.9977       641
+      Lettuce_romaine_7wk     1.0000    1.0000    1.0000       749
+        Vinyard_untrained     1.0000    1.0000    1.0000      5088
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1265
+
+                 accuracy                         0.9999     37891
+                macro avg     0.9996    0.9998    0.9997     37891
+             weighted avg     0.9999    0.9999    0.9999     37891
+
+2022-05-19 11:37:08,117 - root - INFO - Attack 4 on training examples
+2022-05-19 11:37:08,117 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 11:39:49,164 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 0.41%
+2022-05-19 11:39:49,167 - root - INFO - advtraintime-161.0500 (sec)
+2022-05-19 11:39:49,167 - root - INFO - Attack 4 on testing examples
+2022-05-19 11:39:49,167 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent - INFO - Creating adversarial samples.
+2022-05-19 11:46:05,126 - art.attacks.evasion.projected_gradient_descent.projected_gradient_descent_numpy - INFO - Success rate of attack: 0.70%
+2022-05-19 11:46:05,132 - root - INFO - advtesttime-375.9654 (sec)
+2022-05-19 11:46:22,049 - root - INFO - Classifier before adversarial training 4
+2022-05-19 11:46:22,049 - root - INFO - Start adversarial examples test
+2022-05-19 11:46:22,049 - root - INFO - Test loss on adversarial examples 4.3965 (%)
+2022-05-19 11:46:22,049 - root - INFO - Test accuracy on adversarial examples 99.3059 (%)
+2022-05-19 11:46:22,049 - root - INFO - OA 99.3059 (%)
+2022-05-19 11:46:22,049 - root - INFO - Each_Acc: 
+2022-05-19 11:46:22,049 - root - INFO - [100.         100.          99.6384671   95.69672131  99.09333333
+  99.2782389   99.84031936  99.56907478  99.88484569  99.56427015
+ 100.          97.55374351  99.84399376  99.59946595  98.25078616
+ 100.        ]
+2022-05-19 11:46:22,049 - root - INFO - AA 99.2383 (%)
+2022-05-19 11:46:22,049 - root - INFO - Kappa 99.2271 (%)
+2022-05-19 11:46:22,049 - root - INFO - classification result: 
+2022-05-19 11:46:22,050 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     0.9981    1.0000    0.9990      2608
+                   Fallow     0.9986    0.9964    0.9975      1383
+        Fallow_rough_plow     0.9801    0.9570    0.9684       976
+            Fallow_smooth     0.9774    0.9909    0.9841      1875
+                  Stubble     0.9975    0.9928    0.9951      2771
+                   Celery     0.9932    0.9984    0.9958      2505
+         Grapes_untrained     0.9899    0.9957    0.9928      7890
+     Soil_vinyard_develop     0.9979    0.9988    0.9984      4342
+Corn_senesced_green_weeds     0.9991    0.9956    0.9974      2295
+      Lettuce_romaine_4wk     0.9920    1.0000    0.9960       748
+      Lettuce_romaine_5wk     0.9955    0.9755    0.9854      1349
+      Lettuce_romaine_6wk     0.9581    0.9984    0.9778       641
+      Lettuce_romaine_7wk     0.9973    0.9960    0.9967       749
+        Vinyard_untrained     0.9932    0.9825    0.9878      5088
+ Vinyard_vertical_trellis     0.9976    1.0000    0.9988      1265
+
+                 accuracy                         0.9931     37891
+                macro avg     0.9916    0.9924    0.9919     37891
+             weighted avg     0.9931    0.9931    0.9931     37891
+
+2022-05-19 11:46:46,398 - root - INFO - Classifier after adversarial training 4
+2022-05-19 11:46:46,399 - root - INFO - Adv test loss 0.2619 (%)
+2022-05-19 11:46:46,399 - root - INFO - Adv test accuracy 99.9551 (%)
+2022-05-19 11:46:46,399 - root - INFO - OA 99.9551 (%)
+2022-05-19 11:46:46,399 - root - INFO - Each_Acc: 
+2022-05-19 11:46:46,399 - root - INFO - [100.         100.         100.          99.89754098  99.84
+  99.85564778 100.         100.         100.          99.91285403
+ 100.          99.55522609 100.          99.86648865 100.
+ 100.        ]
+2022-05-19 11:46:46,399 - root - INFO - AA 99.9330 (%)
+2022-05-19 11:46:46,399 - root - INFO - Kappa 99.9500 (%)
+2022-05-19 11:46:46,399 - root - INFO - Adv classification result: 
+2022-05-19 11:46:46,399 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     1.0000    1.0000    1.0000      1406
+   Brocoli_green_weeds_22     1.0000    1.0000    1.0000      2608
+                   Fallow     1.0000    1.0000    1.0000      1383
+        Fallow_rough_plow     0.9969    0.9990    0.9980       976
+            Fallow_smooth     0.9995    0.9984    0.9989      1875
+                  Stubble     1.0000    0.9986    0.9993      2771
+                   Celery     0.9984    1.0000    0.9992      2505
+         Grapes_untrained     1.0000    1.0000    1.0000      7890
+     Soil_vinyard_develop     0.9995    1.0000    0.9998      4342
+Corn_senesced_green_weeds     1.0000    0.9991    0.9996      2295
+      Lettuce_romaine_4wk     1.0000    1.0000    1.0000       748
+      Lettuce_romaine_5wk     1.0000    0.9956    0.9978      1349
+      Lettuce_romaine_6wk     0.9892    1.0000    0.9946       641
+      Lettuce_romaine_7wk     1.0000    0.9987    0.9993       749
+        Vinyard_untrained     1.0000    1.0000    1.0000      5088
+ Vinyard_vertical_trellis     1.0000    1.0000    1.0000      1265
+
+                 accuracy                         0.9996     37891
+                macro avg     0.9990    0.9993    0.9991     37891
+             weighted avg     0.9996    0.9996    0.9996     37891
+
+2022-05-19 11:46:47,773 - root - INFO - Attack 5 on training examples
+2022-05-19 11:46:53,531 - art.attacks.evasion.deepfool - WARNING - It seems that the attacked model is predicting probabilities. DeepFool expects logits as model output to achieve its full attack strength.
+2022-05-19 14:03:45,528 - art.attacks.evasion.deepfool - INFO - Success rate of DeepFool attack: 9.49%
+2022-05-19 14:03:45,531 - root - INFO - advtraintime-8217.7580 (sec)
+2022-05-19 14:03:45,531 - root - INFO - Attack 5 on testing examples
+2022-05-19 14:03:59,031 - art.attacks.evasion.deepfool - WARNING - It seems that the attacked model is predicting probabilities. DeepFool expects logits as model output to achieve its full attack strength.
+2022-05-19 19:23:43,560 - art.attacks.evasion.deepfool - INFO - Success rate of DeepFool attack: 10.12%
+2022-05-19 19:23:43,569 - root - INFO - advtesttime-19198.0374 (sec)
+2022-05-19 19:24:01,092 - root - INFO - Classifier before adversarial training 5
+2022-05-19 19:24:01,093 - root - INFO - Start adversarial examples test
+2022-05-19 19:24:01,093 - root - INFO - Test loss on adversarial examples 149.9018 (%)
+2022-05-19 19:24:01,093 - root - INFO - Test accuracy on adversarial examples 89.8789 (%)
+2022-05-19 19:24:01,093 - root - INFO - OA 89.8789 (%)
+2022-05-19 19:24:01,093 - root - INFO - Each_Acc: 
+2022-05-19 19:24:01,093 - root - INFO - [ 99.85775249 100.          93.70932755  71.31147541  82.24
+  95.34464092  98.40319361  88.04816223  97.05204975  91.02396514
+  99.3315508   89.62194218  84.55538222  90.9212283   73.11320755
+  99.44664032]
+2022-05-19 19:24:01,093 - root - INFO - AA 90.8738 (%)
+2022-05-19 19:24:01,093 - root - INFO - Kappa 88.7256 (%)
+2022-05-19 19:24:01,093 - root - INFO - classification result: 
+2022-05-19 19:24:01,093 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     0.9723    0.9986    0.9853      1406
+   Brocoli_green_weeds_22     0.9739    1.0000    0.9868      2608
+                   Fallow     0.9863    0.9371    0.9611      1383
+        Fallow_rough_plow     0.7516    0.7131    0.7319       976
+            Fallow_smooth     0.7867    0.8224    0.8042      1875
+                  Stubble     0.9639    0.9534    0.9586      2771
+                   Celery     0.9603    0.9840    0.9720      2505
+         Grapes_untrained     0.8377    0.8805    0.8586      7890
+     Soil_vinyard_develop     0.9972    0.9705    0.9837      4342
+Corn_senesced_green_weeds     0.9685    0.9102    0.9385      2295
+      Lettuce_romaine_4wk     0.9173    0.9933    0.9538       748
+      Lettuce_romaine_5wk     0.8761    0.8962    0.8860      1349
+      Lettuce_romaine_6wk     0.8617    0.8456    0.8535       641
+      Lettuce_romaine_7wk     0.9485    0.9092    0.9284       749
+        Vinyard_untrained     0.8064    0.7311    0.7669      5088
+ Vinyard_vertical_trellis     0.8767    0.9945    0.9319      1265
+
+                 accuracy                         0.8988     37891
+                macro avg     0.9053    0.9087    0.9063     37891
+             weighted avg     0.8989    0.8988    0.8982     37891
+
+2022-05-19 19:24:28,870 - root - INFO - Classifier after adversarial training 5
+2022-05-19 19:24:28,870 - root - INFO - Adv test loss 116.9397 (%)
+2022-05-19 19:24:28,870 - root - INFO - Adv test accuracy 92.1644 (%)
+2022-05-19 19:24:28,870 - root - INFO - OA 92.1644 (%)
+2022-05-19 19:24:28,870 - root - INFO - Each_Acc: 
+2022-05-19 19:24:28,870 - root - INFO - [ 99.92887624 100.          94.79392625  80.6352459   89.17333333
+  95.95813786  98.72255489  91.62230672  97.92722248  92.46187364
+  99.46524064  90.65974796  87.36349454  92.38985314  77.16194969
+  99.5256917 ]
+2022-05-19 19:24:28,870 - root - INFO - AA 92.9868 (%)
+2022-05-19 19:24:28,871 - root - INFO - Kappa 91.2805 (%)
+2022-05-19 19:24:28,871 - root - INFO - Adv classification result: 
+2022-05-19 19:24:28,871 - root - INFO -                            precision    recall  f1-score   support
+
+    Brocoli_green_weeds_1     0.9846    0.9993    0.9919      1406
+   Brocoli_green_weeds_22     0.9324    1.0000    0.9650      2608
+                   Fallow     0.9697    0.9479    0.9587      1383
+        Fallow_rough_plow     0.9459    0.8064    0.8706       976
+            Fallow_smooth     0.9177    0.8917    0.9045      1875
+                  Stubble     0.9426    0.9596    0.9510      2771
+                   Celery     0.9537    0.9872    0.9702      2505
+         Grapes_untrained     0.8958    0.9162    0.9059      7890
+     Soil_vinyard_develop     0.9527    0.9793    0.9658      4342
+Corn_senesced_green_weeds     0.9537    0.9246    0.9389      2295
+      Lettuce_romaine_4wk     0.8035    0.9947    0.8889       748
+      Lettuce_romaine_5wk     0.8849    0.9066    0.8956      1349
+      Lettuce_romaine_6wk     0.9032    0.8736    0.8882       641
+      Lettuce_romaine_7wk     0.8693    0.9239    0.8958       749
+        Vinyard_untrained     0.8925    0.7716    0.8277      5088
+ Vinyard_vertical_trellis     0.9217    0.9953    0.9571      1265
+
+                 accuracy                         0.9216     37891
+                macro avg     0.9202    0.9299    0.9235     37891
+             weighted avg     0.9218    0.9216    0.9205     37891
+
+2022-05-19 19:24:30,904 - root - INFO - Finish!

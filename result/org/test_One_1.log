@@ -1,0 +1,273 @@
+2022-05-01 12:23:00,966 - art.estimators.classification.pytorch - INFO - Inferred 1 hidden layers on PyTorch classifier.
+2022-05-01 12:23:00,967 - root - INFO - Start Training
+2022-05-01 12:23:02,291 - root - INFO - Epoch[001/100] Train Acc: 19.53% Train loss:2.3119 
+2022-05-01 12:23:04,011 - root - INFO - Epoch[002/100] Train Acc: 42.97% Train loss:1.7736 
+2022-05-01 12:23:05,654 - root - INFO - Epoch[003/100] Train Acc: 47.66% Train loss:1.6055 
+2022-05-01 12:23:07,392 - root - INFO - Epoch[004/100] Train Acc: 60.94% Train loss:1.2058 
+2022-05-01 12:23:09,232 - root - INFO - Epoch[005/100] Train Acc: 66.80% Train loss:0.9528 
+2022-05-01 12:23:11,080 - root - INFO - Epoch[006/100] Train Acc: 77.73% Train loss:0.7875 
+2022-05-01 12:23:12,703 - root - INFO - Epoch[007/100] Train Acc: 79.69% Train loss:0.6349 
+2022-05-01 12:23:14,391 - root - INFO - Epoch[008/100] Train Acc: 85.55% Train loss:0.4108 
+2022-05-01 12:23:16,083 - root - INFO - Epoch[009/100] Train Acc: 86.72% Train loss:0.4628 
+2022-05-01 12:23:17,775 - root - INFO - Epoch[010/100] Train Acc: 94.14% Train loss:0.1970 
+2022-05-01 12:23:19,619 - root - INFO - Epoch[011/100] Train Acc: 92.19% Train loss:0.2061 
+2022-05-01 12:23:21,603 - root - INFO - Epoch[012/100] Train Acc: 93.75% Train loss:0.1747 
+2022-05-01 12:23:23,408 - root - INFO - Epoch[013/100] Train Acc: 96.88% Train loss:0.1035 
+2022-05-01 12:23:25,280 - root - INFO - Epoch[014/100] Train Acc: 97.27% Train loss:0.1109 
+2022-05-01 12:23:27,045 - root - INFO - Epoch[015/100] Train Acc: 99.61% Train loss:0.0482 
+2022-05-01 12:23:28,889 - root - INFO - Epoch[016/100] Train Acc: 97.66% Train loss:0.0942 
+2022-05-01 12:23:30,698 - root - INFO - Epoch[017/100] Train Acc: 99.22% Train loss:0.0536 
+2022-05-01 12:23:32,871 - root - INFO - Epoch[018/100] Train Acc: 98.05% Train loss:0.0608 
+2022-05-01 12:23:34,786 - root - INFO - Epoch[019/100] Train Acc: 98.44% Train loss:0.0531 
+2022-05-01 12:23:36,725 - root - INFO - Epoch[020/100] Train Acc: 98.44% Train loss:0.0428 
+2022-05-01 12:23:38,556 - root - INFO - Epoch[021/100] Train Acc: 97.27% Train loss:0.0750 
+2022-05-01 12:23:40,353 - root - INFO - Epoch[022/100] Train Acc: 99.22% Train loss:0.0380 
+2022-05-01 12:23:42,104 - root - INFO - Epoch[023/100] Train Acc: 99.22% Train loss:0.0306 
+2022-05-01 12:23:43,930 - root - INFO - Epoch[024/100] Train Acc: 100.00% Train loss:0.0226 
+2022-05-01 12:23:45,885 - root - INFO - Epoch[025/100] Train Acc: 99.22% Train loss:0.0345 
+2022-05-01 12:23:47,675 - root - INFO - Epoch[026/100] Train Acc: 99.22% Train loss:0.0255 
+2022-05-01 12:23:49,501 - root - INFO - Epoch[027/100] Train Acc: 99.61% Train loss:0.0240 
+2022-05-01 12:23:51,282 - root - INFO - Epoch[028/100] Train Acc: 98.83% Train loss:0.0297 
+2022-05-01 12:23:53,079 - root - INFO - Epoch[029/100] Train Acc: 98.44% Train loss:0.0583 
+2022-05-01 12:23:54,954 - root - INFO - Epoch[030/100] Train Acc: 100.00% Train loss:0.0115 
+2022-05-01 12:23:56,881 - root - INFO - Epoch[031/100] Train Acc: 99.61% Train loss:0.0310 
+2022-05-01 12:23:58,805 - root - INFO - Epoch[032/100] Train Acc: 99.61% Train loss:0.0132 
+2022-05-01 12:24:00,667 - root - INFO - Epoch[033/100] Train Acc: 100.00% Train loss:0.0175 
+2022-05-01 12:24:02,760 - root - INFO - Epoch[034/100] Train Acc: 99.22% Train loss:0.0328 
+2022-05-01 12:24:04,573 - root - INFO - Epoch[035/100] Train Acc: 99.22% Train loss:0.0254 
+2022-05-01 12:24:06,378 - root - INFO - Epoch[036/100] Train Acc: 99.61% Train loss:0.0125 
+2022-05-01 12:24:08,162 - root - INFO - Epoch[037/100] Train Acc: 99.22% Train loss:0.0263 
+2022-05-01 12:24:10,205 - root - INFO - Epoch[038/100] Train Acc: 100.00% Train loss:0.0044 
+2022-05-01 12:24:12,047 - root - INFO - Epoch[039/100] Train Acc: 99.61% Train loss:0.0261 
+2022-05-01 12:24:13,914 - root - INFO - Epoch[040/100] Train Acc: 99.61% Train loss:0.0095 
+2022-05-01 12:24:15,715 - root - INFO - Epoch[041/100] Train Acc: 99.61% Train loss:0.0324 
+2022-05-01 12:24:17,675 - root - INFO - Epoch[042/100] Train Acc: 100.00% Train loss:0.0105 
+2022-05-01 12:24:19,456 - root - INFO - Epoch[043/100] Train Acc: 99.22% Train loss:0.0128 
+2022-05-01 12:24:27,123 - root - INFO - Epoch[044/100] Train Acc: 99.61% Train loss:0.0108 
+2022-05-01 12:24:32,049 - root - INFO - Epoch[045/100] Train Acc: 98.83% Train loss:0.0286 
+2022-05-01 12:24:37,132 - root - INFO - Epoch[046/100] Train Acc: 99.61% Train loss:0.0124 
+2022-05-01 12:24:39,196 - root - INFO - Epoch[047/100] Train Acc: 99.61% Train loss:0.0094 
+2022-05-01 12:24:41,269 - root - INFO - Epoch[048/100] Train Acc: 98.44% Train loss:0.0301 
+2022-05-01 12:24:43,116 - root - INFO - Epoch[049/100] Train Acc: 100.00% Train loss:0.0068 
+2022-05-01 12:24:44,932 - root - INFO - Epoch[050/100] Train Acc: 99.61% Train loss:0.0080 
+2022-05-01 12:24:46,902 - root - INFO - Epoch[051/100] Train Acc: 99.22% Train loss:0.0307 
+2022-05-01 12:24:48,814 - root - INFO - Epoch[052/100] Train Acc: 100.00% Train loss:0.0023 
+2022-05-01 12:24:50,708 - root - INFO - Epoch[053/100] Train Acc: 99.61% Train loss:0.0190 
+2022-05-01 12:24:52,564 - root - INFO - Epoch[054/100] Train Acc: 99.61% Train loss:0.0096 
+2022-05-01 12:24:54,619 - root - INFO - Epoch[055/100] Train Acc: 99.61% Train loss:0.0172 
+2022-05-01 12:24:56,535 - root - INFO - Epoch[056/100] Train Acc: 100.00% Train loss:0.0032 
+2022-05-01 12:24:58,297 - root - INFO - Epoch[057/100] Train Acc: 100.00% Train loss:0.0030 
+2022-05-01 12:25:00,308 - root - INFO - Epoch[058/100] Train Acc: 99.61% Train loss:0.0100 
+2022-05-01 12:25:02,116 - root - INFO - Epoch[059/100] Train Acc: 100.00% Train loss:0.0038 
+2022-05-01 12:25:03,976 - root - INFO - Epoch[060/100] Train Acc: 100.00% Train loss:0.0068 
+2022-05-01 12:25:05,753 - root - INFO - Epoch[061/100] Train Acc: 99.61% Train loss:0.0051 
+2022-05-01 12:25:07,571 - root - INFO - Epoch[062/100] Train Acc: 100.00% Train loss:0.0029 
+2022-05-01 12:25:09,420 - root - INFO - Epoch[063/100] Train Acc: 99.61% Train loss:0.0116 
+2022-05-01 12:25:11,399 - root - INFO - Epoch[064/100] Train Acc: 100.00% Train loss:0.0039 
+2022-05-01 12:25:13,542 - root - INFO - Epoch[065/100] Train Acc: 100.00% Train loss:0.0051 
+2022-05-01 12:25:15,347 - root - INFO - Epoch[066/100] Train Acc: 100.00% Train loss:0.0081 
+2022-05-01 12:25:17,123 - root - INFO - Epoch[067/100] Train Acc: 100.00% Train loss:0.0020 
+2022-05-01 12:25:18,940 - root - INFO - Epoch[068/100] Train Acc: 100.00% Train loss:0.0021 
+2022-05-01 12:25:20,717 - root - INFO - Epoch[069/100] Train Acc: 100.00% Train loss:0.0012 
+2022-05-01 12:25:22,511 - root - INFO - Epoch[070/100] Train Acc: 100.00% Train loss:0.0051 
+2022-05-01 12:25:24,522 - root - INFO - Epoch[071/100] Train Acc: 99.22% Train loss:0.0312 
+2022-05-01 12:25:26,281 - root - INFO - Epoch[072/100] Train Acc: 99.61% Train loss:0.0074 
+2022-05-01 12:25:28,073 - root - INFO - Epoch[073/100] Train Acc: 99.61% Train loss:0.0170 
+2022-05-01 12:25:29,864 - root - INFO - Epoch[074/100] Train Acc: 99.61% Train loss:0.0109 
+2022-05-01 12:25:31,737 - root - INFO - Epoch[075/100] Train Acc: 100.00% Train loss:0.0012 
+2022-05-01 12:25:33,584 - root - INFO - Epoch[076/100] Train Acc: 99.61% Train loss:0.0080 
+2022-05-01 12:25:35,563 - root - INFO - Epoch[077/100] Train Acc: 100.00% Train loss:0.0044 
+2022-05-01 12:25:37,579 - root - INFO - Epoch[078/100] Train Acc: 99.61% Train loss:0.0150 
+2022-05-01 12:25:39,416 - root - INFO - Epoch[079/100] Train Acc: 99.22% Train loss:0.0318 
+2022-05-01 12:25:41,297 - root - INFO - Epoch[080/100] Train Acc: 100.00% Train loss:0.0024 
+2022-05-01 12:25:43,046 - root - INFO - Epoch[081/100] Train Acc: 99.22% Train loss:0.0152 
+2022-05-01 12:25:44,862 - root - INFO - Epoch[082/100] Train Acc: 99.22% Train loss:0.0217 
+2022-05-01 12:25:46,725 - root - INFO - Epoch[083/100] Train Acc: 99.22% Train loss:0.0458 
+2022-05-01 12:25:48,732 - root - INFO - Epoch[084/100] Train Acc: 99.61% Train loss:0.0091 
+2022-05-01 12:25:50,988 - root - INFO - Epoch[085/100] Train Acc: 100.00% Train loss:0.0044 
+2022-05-01 12:25:52,727 - root - INFO - Epoch[086/100] Train Acc: 100.00% Train loss:0.0027 
+2022-05-01 12:25:54,573 - root - INFO - Epoch[087/100] Train Acc: 98.83% Train loss:0.0144 
+2022-05-01 12:25:56,421 - root - INFO - Epoch[088/100] Train Acc: 99.61% Train loss:0.0097 
+2022-05-01 12:25:58,170 - root - INFO - Epoch[089/100] Train Acc: 100.00% Train loss:0.0044 
+2022-05-01 12:26:00,062 - root - INFO - Epoch[090/100] Train Acc: 99.61% Train loss:0.0128 
+2022-05-01 12:26:02,262 - root - INFO - Epoch[091/100] Train Acc: 99.61% Train loss:0.0075 
+2022-05-01 12:26:04,038 - root - INFO - Epoch[092/100] Train Acc: 99.61% Train loss:0.0072 
+2022-05-01 12:26:05,986 - root - INFO - Epoch[093/100] Train Acc: 100.00% Train loss:0.0027 
+2022-05-01 12:26:07,805 - root - INFO - Epoch[094/100] Train Acc: 100.00% Train loss:0.0032 
+2022-05-01 12:26:09,564 - root - INFO - Epoch[095/100] Train Acc: 99.61% Train loss:0.0086 
+2022-05-01 12:26:11,332 - root - INFO - Epoch[096/100] Train Acc: 100.00% Train loss:0.0015 
+2022-05-01 12:26:13,190 - root - INFO - Epoch[097/100] Train Acc: 99.22% Train loss:0.0112 
+2022-05-01 12:26:15,335 - root - INFO - Epoch[098/100] Train Acc: 100.00% Train loss:0.0014 
+2022-05-01 12:26:17,189 - root - INFO - Epoch[099/100] Train Acc: 100.00% Train loss:0.0028 
+2022-05-01 12:26:19,115 - root - INFO - Epoch[100/100] Train Acc: 100.00% Train loss:0.0013 
+2022-05-01 12:26:19,632 - root - INFO - Finished Training
+2022-05-01 12:26:22,974 - root - INFO - Finished test
+2022-05-01 12:26:22,974 - root - INFO - classification:              precision    recall  f1-score   support
+
+         0.0     0.9535    1.0000    0.9762        41
+         1.0     0.9943    0.9471    0.9701      1285
+         2.0     0.9648    0.9906    0.9775       747
+         3.0     0.9856    0.9624    0.9739       213
+         4.0     1.0000    0.9724    0.9860       435
+         5.0     0.9689    0.9954    0.9820       657
+         6.0     1.0000    1.0000    1.0000        25
+         7.0     0.9773    1.0000    0.9885       430
+         8.0     0.9286    0.7222    0.8125        18
+         9.0     0.9775    0.9931    0.9853       875
+        10.0     0.9727    0.9842    0.9784      2210
+        11.0     0.9591    0.9663    0.9627       534
+        12.0     0.9683    0.9892    0.9786       185
+        13.0     0.9947    0.9956    0.9952      1139
+        14.0     0.9913    0.9798    0.9855       347
+        15.0     0.9437    0.7976    0.8645        84
+
+    accuracy                         0.9791      9225
+   macro avg     0.9738    0.9560    0.9636      9225
+weighted avg     0.9792    0.9791    0.9789      9225
+
+2022-05-01 16:35:39,893 - root - INFO - Create PixelAttack attack
+2022-05-01 16:35:39,893 - root - INFO - Craft attack on training examples   22:44
+2022-05-01 17:48:08,620 - art.attacks.evasion.pixel_threshold - INFO - Success rate of Attack: 0.49%
+2022-05-01 17:48:08,621 - root - INFO - advtraintime:4348.7280
+2022-05-01 17:48:08,622 - root - INFO - Craft attack on testing examples
+2022-05-02 04:24:26,963 - art.attacks.evasion.pixel_threshold - INFO - Success rate of Attack: 3.64%
+2022-05-02 04:24:26,967 - root - INFO - advtesttime:38178.3450
+2022-05-02 11:17:46,068 - art.estimators.classification.pytorch - INFO - Inferred 1 hidden layers on PyTorch classifier.
+2022-05-02 11:17:46,069 - root - INFO - Create PixelAttack attack
+2022-05-02 11:17:46,069 - root - INFO - Craft attack on training examples
+2022-05-02 19:17:12,165 - art.attacks.evasion.pixel_threshold - INFO - Success rate of Attack: 0.49%
+2022-05-02 19:17:12,167 - root - INFO - advtraintime:28766.0969
+2022-05-02 19:17:12,167 - root - INFO - Craft attack on testing examples
+2022-05-05 08:07:42,739 - art.attacks.evasion.pixel_threshold - INFO - Success rate of Attack: 3.89%
+2022-05-05 08:07:42,743 - root - INFO - advtesttime:219030.5758
+2022-05-05 08:07:45,608 - root - INFO - Classifier before adversarial training
+2022-05-05 08:07:45,608 - root - INFO - Accuracy on adversarial samples:0.0000
+2022-05-05 08:07:45,794 - art.estimators.classification.pytorch - INFO - Inferred 1 hidden layers on PyTorch classifier.
+2022-05-05 08:07:45,795 - root - INFO - Start AdvTraining
+2022-05-05 08:07:47,043 - root - INFO - Epoch[001/100] Train Acc: 14.84% Train loss:2.7677 
+2022-05-05 08:07:48,699 - root - INFO - Epoch[002/100] Train Acc: 30.47% Train loss:2.1139 
+2022-05-05 08:07:50,308 - root - INFO - Epoch[003/100] Train Acc: 49.22% Train loss:1.5492 
+2022-05-05 08:07:51,953 - root - INFO - Epoch[004/100] Train Acc: 54.30% Train loss:1.3000 
+2022-05-05 08:07:53,755 - root - INFO - Epoch[005/100] Train Acc: 62.11% Train loss:1.0429 
+2022-05-05 08:07:55,449 - root - INFO - Epoch[006/100] Train Acc: 72.66% Train loss:0.8857 
+2022-05-05 08:07:57,067 - root - INFO - Epoch[007/100] Train Acc: 75.78% Train loss:0.6899 
+2022-05-05 08:07:58,700 - root - INFO - Epoch[008/100] Train Acc: 81.64% Train loss:0.5403 
+2022-05-05 08:08:00,381 - root - INFO - Epoch[009/100] Train Acc: 87.50% Train loss:0.4030 
+2022-05-05 08:08:01,958 - root - INFO - Epoch[010/100] Train Acc: 91.80% Train loss:0.3289 
+2022-05-05 08:08:03,541 - root - INFO - Epoch[011/100] Train Acc: 93.36% Train loss:0.2318 
+2022-05-05 08:08:05,373 - root - INFO - Epoch[012/100] Train Acc: 94.53% Train loss:0.1777 
+2022-05-05 08:08:07,046 - root - INFO - Epoch[013/100] Train Acc: 96.09% Train loss:0.1322 
+2022-05-05 08:08:08,694 - root - INFO - Epoch[014/100] Train Acc: 95.31% Train loss:0.1337 
+2022-05-05 08:08:10,415 - root - INFO - Epoch[015/100] Train Acc: 94.92% Train loss:0.1418 
+2022-05-05 08:08:12,136 - root - INFO - Epoch[016/100] Train Acc: 97.66% Train loss:0.0874 
+2022-05-05 08:08:13,824 - root - INFO - Epoch[017/100] Train Acc: 98.44% Train loss:0.0550 
+2022-05-05 08:08:15,649 - root - INFO - Epoch[018/100] Train Acc: 98.44% Train loss:0.0651 
+2022-05-05 08:08:17,474 - root - INFO - Epoch[019/100] Train Acc: 97.66% Train loss:0.0872 
+2022-05-05 08:08:19,170 - root - INFO - Epoch[020/100] Train Acc: 98.83% Train loss:0.0479 
+2022-05-05 08:08:20,986 - root - INFO - Epoch[021/100] Train Acc: 98.05% Train loss:0.0604 
+2022-05-05 08:08:22,736 - root - INFO - Epoch[022/100] Train Acc: 99.22% Train loss:0.0306 
+2022-05-05 08:08:24,439 - root - INFO - Epoch[023/100] Train Acc: 99.61% Train loss:0.0338 
+2022-05-05 08:08:26,121 - root - INFO - Epoch[024/100] Train Acc: 98.44% Train loss:0.0357 
+2022-05-05 08:08:27,891 - root - INFO - Epoch[025/100] Train Acc: 98.05% Train loss:0.0533 
+2022-05-05 08:08:29,716 - root - INFO - Epoch[026/100] Train Acc: 100.00% Train loss:0.0251 
+2022-05-05 08:08:31,448 - root - INFO - Epoch[027/100] Train Acc: 98.44% Train loss:0.0490 
+2022-05-05 08:08:33,195 - root - INFO - Epoch[028/100] Train Acc: 98.83% Train loss:0.0522 
+2022-05-05 08:08:34,882 - root - INFO - Epoch[029/100] Train Acc: 99.22% Train loss:0.0243 
+2022-05-05 08:08:36,587 - root - INFO - Epoch[030/100] Train Acc: 98.44% Train loss:0.0409 
+2022-05-05 08:08:38,364 - root - INFO - Epoch[031/100] Train Acc: 99.61% Train loss:0.0231 
+2022-05-05 08:08:40,249 - root - INFO - Epoch[032/100] Train Acc: 97.66% Train loss:0.0918 
+2022-05-05 08:08:42,067 - root - INFO - Epoch[033/100] Train Acc: 98.83% Train loss:0.0247 
+2022-05-05 08:08:43,831 - root - INFO - Epoch[034/100] Train Acc: 100.00% Train loss:0.0126 
+2022-05-05 08:08:45,530 - root - INFO - Epoch[035/100] Train Acc: 98.05% Train loss:0.0387 
+2022-05-05 08:08:47,359 - root - INFO - Epoch[036/100] Train Acc: 98.44% Train loss:0.0498 
+2022-05-05 08:08:49,115 - root - INFO - Epoch[037/100] Train Acc: 100.00% Train loss:0.0069 
+2022-05-05 08:08:50,865 - root - INFO - Epoch[038/100] Train Acc: 98.83% Train loss:0.0265 
+2022-05-05 08:08:52,701 - root - INFO - Epoch[039/100] Train Acc: 99.61% Train loss:0.0113 
+2022-05-05 08:08:54,402 - root - INFO - Epoch[040/100] Train Acc: 100.00% Train loss:0.0050 
+2022-05-05 08:08:56,130 - root - INFO - Epoch[041/100] Train Acc: 99.22% Train loss:0.0186 
+2022-05-05 08:08:57,859 - root - INFO - Epoch[042/100] Train Acc: 99.61% Train loss:0.0181 
+2022-05-05 08:08:59,560 - root - INFO - Epoch[043/100] Train Acc: 99.22% Train loss:0.0181 
+2022-05-05 08:09:01,297 - root - INFO - Epoch[044/100] Train Acc: 100.00% Train loss:0.0130 
+2022-05-05 08:09:03,023 - root - INFO - Epoch[045/100] Train Acc: 99.61% Train loss:0.0118 
+2022-05-05 08:09:04,849 - root - INFO - Epoch[046/100] Train Acc: 100.00% Train loss:0.0080 
+2022-05-05 08:09:06,659 - root - INFO - Epoch[047/100] Train Acc: 99.61% Train loss:0.0150 
+2022-05-05 08:09:08,374 - root - INFO - Epoch[048/100] Train Acc: 99.61% Train loss:0.0137 
+2022-05-05 08:09:10,068 - root - INFO - Epoch[049/100] Train Acc: 100.00% Train loss:0.0063 
+2022-05-05 08:09:11,851 - root - INFO - Epoch[050/100] Train Acc: 98.83% Train loss:0.0354 
+2022-05-05 08:09:13,583 - root - INFO - Epoch[051/100] Train Acc: 99.61% Train loss:0.0132 
+2022-05-05 08:09:15,275 - root - INFO - Epoch[052/100] Train Acc: 99.61% Train loss:0.0109 
+2022-05-05 08:09:17,107 - root - INFO - Epoch[053/100] Train Acc: 99.61% Train loss:0.0140 
+2022-05-05 08:09:18,775 - root - INFO - Epoch[054/100] Train Acc: 100.00% Train loss:0.0060 
+2022-05-05 08:09:20,481 - root - INFO - Epoch[055/100] Train Acc: 100.00% Train loss:0.0078 
+2022-05-05 08:09:22,165 - root - INFO - Epoch[056/100] Train Acc: 100.00% Train loss:0.0057 
+2022-05-05 08:09:23,866 - root - INFO - Epoch[057/100] Train Acc: 99.61% Train loss:0.0081 
+2022-05-05 08:09:25,535 - root - INFO - Epoch[058/100] Train Acc: 99.61% Train loss:0.0076 
+2022-05-05 08:09:27,233 - root - INFO - Epoch[059/100] Train Acc: 99.61% Train loss:0.0096 
+2022-05-05 08:09:29,074 - root - INFO - Epoch[060/100] Train Acc: 100.00% Train loss:0.0035 
+2022-05-05 08:09:30,819 - root - INFO - Epoch[061/100] Train Acc: 100.00% Train loss:0.0015 
+2022-05-05 08:09:32,521 - root - INFO - Epoch[062/100] Train Acc: 100.00% Train loss:0.0011 
+2022-05-05 08:09:34,282 - root - INFO - Epoch[063/100] Train Acc: 100.00% Train loss:0.0036 
+2022-05-05 08:09:35,995 - root - INFO - Epoch[064/100] Train Acc: 99.61% Train loss:0.0088 
+2022-05-05 08:09:37,710 - root - INFO - Epoch[065/100] Train Acc: 100.00% Train loss:0.0018 
+2022-05-05 08:09:39,489 - root - INFO - Epoch[066/100] Train Acc: 99.61% Train loss:0.0072 
+2022-05-05 08:09:41,382 - root - INFO - Epoch[067/100] Train Acc: 99.61% Train loss:0.0210 
+2022-05-05 08:09:43,090 - root - INFO - Epoch[068/100] Train Acc: 99.61% Train loss:0.0078 
+2022-05-05 08:09:44,811 - root - INFO - Epoch[069/100] Train Acc: 99.61% Train loss:0.0226 
+2022-05-05 08:09:46,563 - root - INFO - Epoch[070/100] Train Acc: 99.61% Train loss:0.0157 
+2022-05-05 08:09:48,282 - root - INFO - Epoch[071/100] Train Acc: 100.00% Train loss:0.0053 
+2022-05-05 08:09:50,012 - root - INFO - Epoch[072/100] Train Acc: 99.61% Train loss:0.0080 
+2022-05-05 08:09:52,205 - root - INFO - Epoch[073/100] Train Acc: 100.00% Train loss:0.0051 
+2022-05-05 08:09:54,060 - root - INFO - Epoch[074/100] Train Acc: 99.61% Train loss:0.0153 
+2022-05-05 08:09:55,740 - root - INFO - Epoch[075/100] Train Acc: 98.83% Train loss:0.0396 
+2022-05-05 08:09:57,454 - root - INFO - Epoch[076/100] Train Acc: 99.22% Train loss:0.0135 
+2022-05-05 08:09:59,229 - root - INFO - Epoch[077/100] Train Acc: 100.00% Train loss:0.0012 
+2022-05-05 08:10:00,921 - root - INFO - Epoch[078/100] Train Acc: 100.00% Train loss:0.0029 
+2022-05-05 08:10:02,718 - root - INFO - Epoch[079/100] Train Acc: 99.61% Train loss:0.0051 
+2022-05-05 08:10:04,589 - root - INFO - Epoch[080/100] Train Acc: 100.00% Train loss:0.0019 
+2022-05-05 08:10:06,348 - root - INFO - Epoch[081/100] Train Acc: 99.61% Train loss:0.0091 
+2022-05-05 08:10:08,091 - root - INFO - Epoch[082/100] Train Acc: 100.00% Train loss:0.0022 
+2022-05-05 08:10:09,860 - root - INFO - Epoch[083/100] Train Acc: 100.00% Train loss:0.0036 
+2022-05-05 08:10:11,595 - root - INFO - Epoch[084/100] Train Acc: 100.00% Train loss:0.0039 
+2022-05-05 08:10:13,312 - root - INFO - Epoch[085/100] Train Acc: 100.00% Train loss:0.0046 
+2022-05-05 08:10:15,290 - root - INFO - Epoch[086/100] Train Acc: 100.00% Train loss:0.0052 
+2022-05-05 08:10:17,113 - root - INFO - Epoch[087/100] Train Acc: 99.61% Train loss:0.0094 
+2022-05-05 08:10:18,857 - root - INFO - Epoch[088/100] Train Acc: 100.00% Train loss:0.0031 
+2022-05-05 08:10:20,555 - root - INFO - Epoch[089/100] Train Acc: 99.61% Train loss:0.0161 
+2022-05-05 08:10:22,294 - root - INFO - Epoch[090/100] Train Acc: 99.22% Train loss:0.0265 
+2022-05-05 08:10:24,005 - root - INFO - Epoch[091/100] Train Acc: 100.00% Train loss:0.0053 
+2022-05-05 08:10:25,667 - root - INFO - Epoch[092/100] Train Acc: 100.00% Train loss:0.0015 
+2022-05-05 08:10:27,430 - root - INFO - Epoch[093/100] Train Acc: 100.00% Train loss:0.0053 
+2022-05-05 08:10:29,248 - root - INFO - Epoch[094/100] Train Acc: 100.00% Train loss:0.0028 
+2022-05-05 08:10:30,959 - root - INFO - Epoch[095/100] Train Acc: 100.00% Train loss:0.0033 
+2022-05-05 08:10:32,668 - root - INFO - Epoch[096/100] Train Acc: 100.00% Train loss:0.0058 
+2022-05-05 08:10:34,409 - root - INFO - Epoch[097/100] Train Acc: 100.00% Train loss:0.0077 
+2022-05-05 08:10:36,122 - root - INFO - Epoch[098/100] Train Acc: 100.00% Train loss:0.0048 
+2022-05-05 08:10:37,864 - root - INFO - Epoch[099/100] Train Acc: 100.00% Train loss:0.0050 
+2022-05-05 08:10:39,593 - root - INFO - Epoch[100/100] Train Acc: 100.00% Train loss:0.0056 
+2022-05-05 08:10:40,175 - root - INFO - Finished AdvTraining
+2022-05-05 08:10:43,454 - root - INFO - Finished advtest
+2022-05-05 08:10:46,498 - root - INFO - Classifier after adversarial training
+2022-05-05 08:10:46,498 - root - INFO - Accuracy on adversarial samples:0.0000
+2022-05-05 08:10:46,498 - root - INFO - advclassification:              precision    recall  f1-score   support
+
+         0.0     0.8889    0.9756    0.9302        41
+         1.0     0.9903    0.9518    0.9706      1285
+         2.0     0.9945    0.9732    0.9838       747
+         3.0     0.9858    0.9765    0.9811       213
+         4.0     0.9725    0.9770    0.9748       435
+         5.0     0.9805    0.9970    0.9887       657
+         6.0     0.9615    1.0000    0.9804        25
+         7.0     0.9953    0.9884    0.9918       430
+         8.0     0.9000    1.0000    0.9474        18
+         9.0     0.9885    0.9829    0.9857       875
+        10.0     0.9660    0.9900    0.9779      2210
+        11.0     0.9526    0.9775    0.9649       534
+        12.0     0.9615    0.9459    0.9537       185
+        13.0     0.9913    0.9982    0.9948      1139
+        14.0     0.9913    0.9827    0.9870       347
+        15.0     0.9420    0.7738    0.8497        84
+
+    accuracy                         0.9793      9225
+   macro avg     0.9664    0.9682    0.9664      9225
+weighted avg     0.9795    0.9793    0.9792      9225
+

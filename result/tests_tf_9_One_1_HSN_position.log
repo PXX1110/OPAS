@@ -1,0 +1,12 @@
+2022-09-04 19:49:08,581 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-09-04 19:49:08,582 - root - INFO - Create PixelAttack attack
+2022-09-04 19:49:08,582 - root - INFO - Craft attack on training examples
+2022-09-04 19:51:04,474 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-09-04 19:51:04,475 - root - INFO - Create PixelAttack attack
+2022-09-04 19:51:04,476 - root - INFO - Craft attack on training examples
+2022-09-04 20:02:47,135 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-09-04 20:02:47,166 - root - INFO - Create PixelAttack attack
+2022-09-04 20:02:47,182 - root - INFO - Craft attack on training examples
+2022-09-04 20:39:36,390 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-09-04 20:39:36,390 - root - INFO - Create PixelAttack attack
+2022-09-04 20:39:36,390 - root - INFO - Craft attack on training examples

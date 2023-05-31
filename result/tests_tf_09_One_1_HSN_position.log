@@ -1,0 +1,46 @@
+2022-05-11 20:12:36,911 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-11 20:12:36,911 - root - INFO - Create PixelAttack attack
+2022-05-11 20:12:36,911 - root - INFO - Craft attack on training examples
+2022-05-11 20:23:37,127 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-11 20:23:37,127 - root - INFO - Create PixelAttack attack
+2022-05-11 20:23:37,127 - root - INFO - Craft attack on training examples
+2022-05-12 03:02:42,305 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 21.00%
+2022-05-12 03:02:42,307 - root - INFO - advtraintime-23945.1797 (sec)
+2022-05-12 03:02:42,307 - root - INFO - Craft attack test examples
+2022-05-14 04:05:30,267 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 38.14%
+2022-05-14 04:05:30,322 - root - INFO - advtesttime-176568.0143 (sec)
+2022-05-14 04:06:06,218 - root - INFO - Classifier before adversarial training
+2022-05-14 04:06:06,218 - root - INFO - Start adversarial examples test
+2022-05-14 04:06:06,219 - root - INFO - Test loss on adversarial examples 51.0645 (%)
+2022-05-14 04:06:06,219 - root - INFO - Test accuracy on adversarial examples 66.4390 (%)
+2022-05-14 04:06:06,219 - root - INFO - OA 66.4390 (%)
+2022-05-14 04:06:06,219 - root - INFO - Each_Acc: 
+2022-05-14 04:06:06,219 - root - INFO - [14.63414634 53.38521401 59.70548862 29.10798122 82.52873563 76.86453577
+ 32.         95.34883721  5.55555556 52.22857143 70.58823529 40.4494382
+ 87.56756757 89.11325724 60.51873199 30.95238095]
+2022-05-14 04:06:06,219 - root - INFO - AA 55.0343 (%)
+2022-05-14 04:06:06,219 - root - INFO - Kappa 61.8993 (%)
+2022-05-14 04:06:06,219 - root - INFO - classification result: 
+2022-05-14 04:06:06,219 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.2727    0.1463    0.1905        41
+                 Corn-notill     0.5078    0.5339    0.5205      1285
+                Corn-mintill     0.5103    0.5971    0.5503       747
+                        Corn     0.3388    0.2911    0.3131       213
+               Grass-pasture     0.8013    0.8253    0.8131       435
+                 Grass-trees     0.7053    0.7686    0.7356       657
+         Grass-pasture-mowed     0.4211    0.3200    0.3636        25
+               Hay-windrowed     0.9071    0.9535    0.9297       430
+                        Oats     0.1429    0.0556    0.0800        18
+              Soybean-notill     0.5089    0.5223    0.5155       875
+             Soybean-mintill     0.7935    0.7059    0.7471      2210
+               Soybean-clean     0.4083    0.4045    0.4064       534
+                       Wheat     0.7902    0.8757    0.8308       185
+                       Woods     0.9128    0.8911    0.9018      1139
+Buildings-Grass-Trees-Drives     0.5753    0.6052    0.5899       347
+          Stone-Steel-Towers     0.3333    0.3095    0.3210        84
+
+                    accuracy                         0.6644      9225
+                   macro avg     0.5581    0.5503    0.5506      9225
+                weighted avg     0.6680    0.6644    0.6649      9225
+

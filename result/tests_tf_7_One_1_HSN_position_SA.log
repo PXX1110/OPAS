@@ -1,0 +1,123 @@
+2022-05-13 15:55:19,666 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-13 15:55:37,113 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2048: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-13 16:26:52,837 - root - INFO - Finished test
+2022-05-13 16:26:52,838 - root - INFO - Test loss 0.0188 (%)
+2022-05-13 16:26:52,838 - root - INFO - Test accuracy 99.9921 (%)
+2022-05-13 16:26:52,838 - root - INFO - OA 99.9921 (%)
+2022-05-13 16:26:52,838 - root - INFO - Each_Acc: 
+2022-05-13 16:26:52,838 - root - INFO - [100.         100.         100.         100.          99.94666667
+ 100.          99.96007984 100.         100.         100.
+ 100.         100.         100.         100.          99.98034591
+ 100.        ]
+2022-05-13 16:26:52,838 - root - INFO - AA 99.9929 (%)
+2022-05-13 16:26:52,838 - root - INFO - Kappa 99.9912 (%)
+2022-05-13 16:26:52,838 - root - INFO - classification result: 
+2022-05-13 16:26:52,838 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     1.0000    1.0000    1.0000      1406
+                 Corn-notill     1.0000    1.0000    1.0000      2608
+                Corn-mintill     1.0000    1.0000    1.0000      1383
+                        Corn     0.9990    1.0000    0.9995       976
+               Grass-pasture     1.0000    0.9995    0.9997      1875
+                 Grass-trees     0.9996    1.0000    0.9998      2771
+         Grass-pasture-mowed     1.0000    0.9996    0.9998      2505
+               Hay-windrowed     0.9999    1.0000    0.9999      7890
+                        Oats     1.0000    1.0000    1.0000      4342
+              Soybean-notill     1.0000    1.0000    1.0000      2295
+             Soybean-mintill     1.0000    1.0000    1.0000       748
+               Soybean-clean     1.0000    1.0000    1.0000      1349
+                       Wheat     1.0000    1.0000    1.0000       641
+                       Woods     1.0000    1.0000    1.0000       749
+Buildings-Grass-Trees-Drives     1.0000    0.9998    0.9999      5088
+          Stone-Steel-Towers     1.0000    1.0000    1.0000      1265
+
+                    accuracy                         0.9999     37891
+                   macro avg     0.9999    0.9999    0.9999     37891
+                weighted avg     0.9999    0.9999    0.9999     37891
+
+2022-05-13 16:28:41,697 - root - INFO - Create PixelAttack attack
+2022-05-13 16:28:41,698 - root - INFO - Craft attack on training examples
+2022-05-13 16:38:08,924 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-13 16:38:08,924 - root - INFO - Create PixelAttack attack
+2022-05-13 16:38:08,924 - root - INFO - Craft attack on training examples
+2022-05-13 16:38:10,841 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-15 09:38:23,660 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 61.73%
+2022-05-15 09:38:23,670 - root - INFO - advtraintime-147614.7458 (sec)
+2022-05-15 09:38:23,670 - root - INFO - Craft attack test examples
+2022-05-19 07:23:55,245 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 62.58%
+2022-05-19 07:23:55,262 - root - INFO - advtesttime-337531.5921 (sec)
+2022-05-19 07:26:00,996 - root - INFO - Classifier before adversarial training
+2022-05-19 07:26:00,996 - root - INFO - Start adversarial examples test
+2022-05-19 07:26:00,996 - root - INFO - Test loss on adversarial examples 515.6487 (%)
+2022-05-19 07:26:00,996 - root - INFO - Test accuracy on adversarial examples 37.4179 (%)
+2022-05-19 07:26:00,996 - root - INFO - OA 37.4179 (%)
+2022-05-19 07:26:00,996 - root - INFO - Each_Acc: 
+2022-05-19 07:26:00,996 - root - INFO - [98.43527738 63.76533742 16.1966739   0.81967213  1.49333333 80.80115482
+ 72.81437126 25.36121673  0.23030861 61.74291939 95.58823529 28.76204596
+ 24.33697348 67.02269693  7.94025157 96.04743083]
+2022-05-19 07:26:00,996 - root - INFO - AA 46.3349 (%)
+2022-05-19 07:26:00,996 - root - INFO - Kappa 30.2980 (%)
+2022-05-19 07:26:00,996 - root - INFO - classification result: 
+2022-05-19 07:26:00,996 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.7563    0.9844    0.8554      1406
+                 Corn-notill     0.6280    0.6377    0.6328      2608
+                Corn-mintill     0.5372    0.1620    0.2489      1383
+                        Corn     0.0050    0.0082    0.0062       976
+               Grass-pasture     0.0270    0.0149    0.0192      1875
+                 Grass-trees     0.7424    0.8080    0.7738      2771
+         Grass-pasture-mowed     0.9344    0.7281    0.8185      2505
+               Hay-windrowed     0.2433    0.2536    0.2483      7890
+                        Oats     0.0075    0.0023    0.0035      4342
+              Soybean-notill     0.4944    0.6174    0.5491      2295
+             Soybean-mintill     0.6664    0.9559    0.7853       748
+               Soybean-clean     0.1663    0.2876    0.2108      1349
+                       Wheat     0.3980    0.2434    0.3020       641
+                       Woods     0.7723    0.6702    0.7177       749
+Buildings-Grass-Trees-Drives     0.0570    0.0794    0.0663      5088
+          Stone-Steel-Towers     0.8532    0.9605    0.9037      1265
+
+                    accuracy                         0.3742     37891
+                   macro avg     0.4555    0.4633    0.4463     37891
+                weighted avg     0.3671    0.3742    0.3629     37891
+
+2022-05-19 08:13:49,494 - root - INFO - Classifier after adversarial training
+2022-05-19 08:13:49,494 - root - INFO - Adv test loss 0.2329 (%)
+2022-05-19 08:13:49,494 - root - INFO - Adv test accuracy 99.9789 (%)
+2022-05-19 08:13:49,494 - root - INFO - OA 99.9789 (%)
+2022-05-19 08:13:49,494 - root - INFO - Each_Acc: 
+2022-05-19 08:13:49,494 - root - INFO - [100.         100.         100.          99.89754098  99.94666667
+ 100.          99.96007984  99.97465146 100.          99.86928105
+ 100.         100.         100.         100.         100.
+ 100.        ]
+2022-05-19 08:13:49,495 - root - INFO - AA 99.9780 (%)
+2022-05-19 08:13:49,495 - root - INFO - Kappa 99.9765 (%)
+2022-05-19 08:13:49,495 - root - INFO - Adv classification result: 
+2022-05-19 08:13:49,495 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     1.0000    1.0000    1.0000      1406
+                 Corn-notill     1.0000    1.0000    1.0000      2608
+                Corn-mintill     1.0000    1.0000    1.0000      1383
+                        Corn     0.9990    0.9990    0.9990       976
+               Grass-pasture     0.9995    0.9995    0.9995      1875
+                 Grass-trees     0.9996    1.0000    0.9998      2771
+         Grass-pasture-mowed     1.0000    0.9996    0.9998      2505
+               Hay-windrowed     1.0000    0.9997    0.9999      7890
+                        Oats     0.9993    1.0000    0.9997      4342
+              Soybean-notill     1.0000    0.9987    0.9993      2295
+             Soybean-mintill     1.0000    1.0000    1.0000       748
+               Soybean-clean     1.0000    1.0000    1.0000      1349
+                       Wheat     1.0000    1.0000    1.0000       641
+                       Woods     1.0000    1.0000    1.0000       749
+Buildings-Grass-Trees-Drives     0.9996    1.0000    0.9998      5088
+          Stone-Steel-Towers     1.0000    1.0000    1.0000      1265
+
+                    accuracy                         0.9998     37891
+                   macro avg     0.9998    0.9998    0.9998     37891
+                weighted avg     0.9998    0.9998    0.9998     37891
+
+2022-05-19 08:15:41,796 - root - INFO - Finish!

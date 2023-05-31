@@ -1,0 +1,46 @@
+2022-05-11 20:05:25,354 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-11 20:05:25,354 - root - INFO - Create PixelAttack attack
+2022-05-11 20:05:25,354 - root - INFO - Craft attack on training examples
+2022-05-11 20:05:25,727 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-12 04:30:23,757 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 50.46%
+2022-05-12 04:30:23,759 - root - INFO - advtraintime-30298.4050 (sec)
+2022-05-12 04:30:23,759 - root - INFO - Craft attack test examples
+2022-05-12 22:34:25,505 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 53.99%
+2022-05-12 22:34:25,508 - root - INFO - advtesttime-65041.7491 (sec)
+2022-05-12 22:34:43,621 - root - INFO - Classifier before adversarial training
+2022-05-12 22:34:43,621 - root - INFO - Start adversarial examples test
+2022-05-12 22:34:43,622 - root - INFO - Test loss on adversarial examples 92.9270 (%)
+2022-05-12 22:34:43,622 - root - INFO - Test accuracy on adversarial examples 48.1951 (%)
+2022-05-12 22:34:43,622 - root - INFO - OA 48.1951 (%)
+2022-05-12 22:34:43,622 - root - INFO - Each_Acc: 
+2022-05-12 22:34:43,622 - root - INFO - [ 3.125      23.7        20.48192771 16.26506024 58.87573964 55.96868885
+ 30.         89.85074627 14.28571429 46.17647059 55.03199535 20.48192771
+ 73.42657343 81.15124153 34.44444444 27.69230769]
+2022-05-12 22:34:43,622 - root - INFO - AA 40.6849 (%)
+2022-05-12 22:34:43,622 - root - INFO - Kappa 41.0243 (%)
+2022-05-12 22:34:43,622 - root - INFO - classification result: 
+2022-05-12 22:34:43,622 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.0333    0.0312    0.0323        32
+                 Corn-notill     0.2730    0.2370    0.2537      1000
+                Corn-mintill     0.2409    0.2048    0.2214       581
+                        Corn     0.1484    0.1627    0.1552       166
+               Grass-pasture     0.5802    0.5888    0.5844       338
+                 Grass-trees     0.4751    0.5597    0.5139       511
+         Grass-pasture-mowed     0.6000    0.3000    0.4000        20
+               Hay-windrowed     0.9436    0.8985    0.9205       335
+                        Oats     0.0769    0.1429    0.1000        14
+              Soybean-notill     0.3930    0.4618    0.4246       680
+             Soybean-mintill     0.5478    0.5503    0.5490      1719
+               Soybean-clean     0.2104    0.2048    0.2076       415
+                       Wheat     0.6522    0.7343    0.6908       143
+                       Woods     0.8351    0.8115    0.8231       886
+Buildings-Grass-Trees-Drives     0.3523    0.3444    0.3483       270
+          Stone-Steel-Towers     0.2118    0.2769    0.2400        65
+
+                    accuracy                         0.4820      7175
+                   macro avg     0.4109    0.4068    0.4041      7175
+                weighted avg     0.4801    0.4820    0.4799      7175
+

@@ -1,0 +1,52 @@
+2022-05-11 13:56:43,995 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-11 13:56:43,995 - root - INFO - Create PixelAttack attack
+2022-05-11 13:56:43,995 - root - INFO - Craft attack on training examples
+2022-05-11 13:56:44,242 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-11 14:01:26,618 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-11 14:01:26,619 - root - INFO - Create PixelAttack attack
+2022-05-11 14:01:26,619 - root - INFO - Craft attack on training examples
+2022-05-11 14:01:26,926 - tensorflow - WARNING - From /home/group1/pxx/anaconda3/envs/tf-gpu/lib/python3.7/site-packages/tensorflow/python/keras/engine/training_v1.py:2070: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2022-05-11 22:58:47,025 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 29.14%
+2022-05-11 22:58:47,026 - root - INFO - advtraintime-32240.4077 (sec)
+2022-05-11 22:58:47,026 - root - INFO - Craft attack test examples
+2022-05-13 05:14:11,523 - art.attacks.evasion.pixel_threshold_position - INFO - Success rate of Attack: 40.70%
+2022-05-13 05:14:11,526 - root - INFO - advtesttime-108924.4995 (sec)
+2022-05-13 05:14:35,649 - root - INFO - Classifier before adversarial training
+2022-05-13 05:14:35,649 - root - INFO - Start adversarial examples test
+2022-05-13 05:14:35,649 - root - INFO - Test loss on adversarial examples 58.0516 (%)
+2022-05-13 05:14:35,649 - root - INFO - Test accuracy on adversarial examples 61.5000 (%)
+2022-05-13 05:14:35,649 - root - INFO - OA 61.5000 (%)
+2022-05-13 05:14:35,649 - root - INFO - Each_Acc: 
+2022-05-13 05:14:35,649 - root - INFO - [ 8.10810811 43.56955381 48.19277108 36.84210526 64.50777202 71.06164384
+ 31.81818182 95.28795812 37.5        48.58611825 70.67209776 37.26315789
+ 90.85365854 85.17786561 47.89644013 12.16216216]
+2022-05-13 05:14:35,649 - root - INFO - AA 51.8437 (%)
+2022-05-13 05:14:35,649 - root - INFO - Kappa 56.2726 (%)
+2022-05-13 05:14:35,649 - root - INFO - classification result: 
+2022-05-13 05:14:35,649 - root - INFO -                               precision    recall  f1-score   support
+
+                     Alfalfa     0.1429    0.0811    0.1034        37
+                 Corn-notill     0.4499    0.4357    0.4427      1143
+                Corn-mintill     0.4699    0.4819    0.4758       664
+                        Corn     0.3431    0.3684    0.3553       190
+               Grass-pasture     0.7114    0.6451    0.6766       386
+                 Grass-trees     0.6963    0.7106    0.7034       584
+         Grass-pasture-mowed     0.1892    0.3182    0.2373        22
+               Hay-windrowed     0.8667    0.9529    0.9077       382
+                        Oats     0.2308    0.3750    0.2857        16
+              Soybean-notill     0.4136    0.4859    0.4468       778
+             Soybean-mintill     0.7527    0.7067    0.7290      1964
+               Soybean-clean     0.3583    0.3726    0.3653       475
+                       Wheat     0.7760    0.9085    0.8371       164
+                       Woods     0.9170    0.8518    0.8832      1012
+Buildings-Grass-Trees-Drives     0.5944    0.4790    0.5305       309
+          Stone-Steel-Towers     0.0720    0.1216    0.0905        74
+
+                    accuracy                         0.6150      8200
+                   macro avg     0.4990    0.5184    0.5044      8200
+                weighted avg     0.6258    0.6150    0.6191      8200
+

@@ -1,0 +1,81 @@
+2022-05-03 22:31:26,439 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-03 22:42:45,167 - root - INFO - Finished test
+2022-05-03 22:42:45,167 - root - INFO - classification:                              precision    recall  f1-score   support
+
+                     Alfalfa     0.9756    0.9756    0.9756        41
+                 Corn-notill     0.9646    0.8911    0.9264      1285
+                Corn-mintill     0.8566    0.9679    0.9089       747
+                        Corn     0.9870    0.7136    0.8283       213
+               Grass-pasture     0.9566    0.9632    0.9599       435
+                 Grass-trees     0.9488    0.9878    0.9679       657
+         Grass-pasture-mowed     0.9286    0.5200    0.6667        25
+               Hay-windrowed     0.9931    1.0000    0.9965       430
+                        Oats     0.7500    0.1667    0.2727        18
+              Soybean-notill     0.9444    0.9509    0.9476       875
+             Soybean-mintill     0.9517    0.9633    0.9575      2210
+               Soybean-clean     0.8626    0.9288    0.8945       534
+                       Wheat     0.9888    0.9514    0.9697       185
+                       Woods     0.9885    0.9824    0.9855      1139
+Buildings-Grass-Trees-Drives     0.9322    0.9510    0.9415       347
+          Stone-Steel-Towers     0.9130    0.7500    0.8235        84
+
+                    accuracy                         0.9451      9225
+                   macro avg     0.9339    0.8540    0.8764      9225
+                weighted avg     0.9466    0.9451    0.9442      9225
+
+2022-05-03 22:42:45,168 - root - INFO - Create PixelAttack attack
+2022-05-03 22:42:45,168 - root - INFO - Craft attack on training examples
+2022-05-03 22:47:10,602 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-03 22:47:18,267 - root - INFO - Finished test
+2022-05-03 22:47:18,267 - root - INFO - classification:                              precision    recall  f1-score   support
+
+                     Alfalfa     0.9756    0.9756    0.9756        41
+                 Corn-notill     0.9531    0.9167    0.9345      1285
+                Corn-mintill     0.8700    0.9679    0.9163       747
+                        Corn     0.9511    0.8216    0.8816       213
+               Grass-pasture     0.9695    0.9494    0.9593       435
+                 Grass-trees     0.9476    0.9909    0.9688       657
+         Grass-pasture-mowed     0.8889    0.6400    0.7442        25
+               Hay-windrowed     0.9954    0.9977    0.9965       430
+                        Oats     0.4444    0.2222    0.2963        18
+              Soybean-notill     0.9522    0.9554    0.9538       875
+             Soybean-mintill     0.9530    0.9733    0.9631      2210
+               Soybean-clean     0.9462    0.8895    0.9170       534
+                       Wheat     1.0000    0.9514    0.9751       185
+                       Woods     0.9946    0.9745    0.9845      1139
+Buildings-Grass-Trees-Drives     0.9494    0.9193    0.9341       347
+          Stone-Steel-Towers     0.7938    0.9167    0.8508        84
+
+                    accuracy                         0.9510      9225
+                   macro avg     0.9116    0.8789    0.8907      9225
+                weighted avg     0.9516    0.9510    0.9506      9225
+
+2022-05-03 22:47:18,267 - root - INFO - Create PixelAttack attack
+2022-05-03 22:47:18,267 - root - INFO - Craft attack on training examples
+2022-05-04 16:21:37,273 - art.estimators.classification.keras - INFO - Inferred 10 hidden layers on Keras classifier.
+2022-05-04 16:21:45,235 - root - INFO - Finished test
+2022-05-04 16:21:45,235 - root - INFO - classification:                              precision    recall  f1-score   support
+
+                     Alfalfa     0.9756    0.9756    0.9756        41
+                 Corn-notill     0.9531    0.9167    0.9345      1285
+                Corn-mintill     0.8700    0.9679    0.9163       747
+                        Corn     0.9511    0.8216    0.8816       213
+               Grass-pasture     0.9695    0.9494    0.9593       435
+                 Grass-trees     0.9476    0.9909    0.9688       657
+         Grass-pasture-mowed     0.8889    0.6400    0.7442        25
+               Hay-windrowed     0.9954    0.9977    0.9965       430
+                        Oats     0.4444    0.2222    0.2963        18
+              Soybean-notill     0.9522    0.9554    0.9538       875
+             Soybean-mintill     0.9530    0.9733    0.9631      2210
+               Soybean-clean     0.9462    0.8895    0.9170       534
+                       Wheat     1.0000    0.9514    0.9751       185
+                       Woods     0.9946    0.9745    0.9845      1139
+Buildings-Grass-Trees-Drives     0.9494    0.9193    0.9341       347
+          Stone-Steel-Towers     0.7938    0.9167    0.8508        84
+
+                    accuracy                         0.9510      9225
+                   macro avg     0.9116    0.8789    0.8907      9225
+                weighted avg     0.9516    0.9510    0.9506      9225
+
+2022-05-04 16:21:45,235 - root - INFO - Create PixelAttack attack
+2022-05-04 16:21:45,236 - root - INFO - Craft attack on training examples
